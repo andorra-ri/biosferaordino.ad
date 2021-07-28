@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'LexendDeca';
+  src:
+    url('/fonts/lexenddeca.woff') format('woff'),
+    url('/fonts/lexenddeca.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Viga';
+  src:
+    url('/fonts/viga.woff') format('woff'),
+    url('/fonts/viga.woff2') format('woff2');
+}
+
+#app {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-family: 'LexendDeca', Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+a.cta { border: 2px solid currentColor !important; }
