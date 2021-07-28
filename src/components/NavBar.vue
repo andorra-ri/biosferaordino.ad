@@ -1,5 +1,5 @@
 <template>
-  <header class="navbar">
+  <header v-scrolled:80="'scrolled'" class="navbar">
     <div class="container">
       <img src="/images/logo.svg" class="logo">
       <nav class="main-nav">
@@ -16,8 +16,11 @@
 </template>
 
 <script>
+import Scrolled from '/@/utils/directive.scrolled';
+
 export default {
   name: 'TopBar',
+  directives: { Scrolled },
   setup() {
     return {};
   },
@@ -61,6 +64,16 @@ export default {
       border-bottom: 2px solid transparent;
 
       &.router-link-active { border-color: currentColor; }
+    }
+  }
+
+  &.scrolled {
+    background: #fff;
+    color: #000;
+
+    .logo {
+      height: 3rem;
+      filter: brightness(0);
     }
   }
 }
