@@ -1,10 +1,10 @@
 <template>
-  <router-view />
+  <p style="height: 200vh;">Home</p>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: 'Home',
   setup() {
     return {};
   },
