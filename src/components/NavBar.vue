@@ -7,11 +7,10 @@
           <input v-model="open" type="checkbox">
         </label>
         <ul>
-          <li><router-link to="/">Index</router-link></li>
-          <li><router-link to="/descobreix">Descobreix</router-link></li>
-          <li><router-link to="/projectes">Projectes</router-link></li>
-          <li><router-link to="/recursos">Recursos</router-link></li>
-          <li><a href="#footer" class="cta">Participa</a></li>
+          <li v-for="(path, name) in nav" :key="name">
+            <router-link :to="path">{{ t(`nav.${name}`) }}</router-link>
+          </li>
+          <li><a href="#footer" class="cta">{{ t('join') }}</a></li>
         </ul>
       </nav>
     </div>
@@ -20,14 +19,17 @@
 
 <script>
 import { ref } from 'vue';
+import { useI18n } from 'vue-i18n';
 import Scrolled from '/@/utils/directive.scrolled';
+import { nav } from '/@/config.yaml';
 
 export default {
   name: 'TopBar',
   directives: { Scrolled },
   setup() {
+    const { t } = useI18n();
     const open = ref(false);
-    return { open };
+    return { t, open, nav };
   },
 };
 </script>
