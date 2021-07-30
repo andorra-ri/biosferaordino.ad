@@ -8,6 +8,17 @@
 
 .container {
   max-width: 960px;
-  padding: 0 1rem;
+  padding: 0 3rem;
   margin: 0 auto;
+  text-align: left;
+}
+
+.hero {
+  height: 100vh;
+  max-height: 700px;
+  position: relative;
+  display: grid;
+  place-content: center;
+  background: #0003;
+  color: #fff;
 }
