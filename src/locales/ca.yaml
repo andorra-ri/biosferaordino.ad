@@ -48,3 +48,15 @@ home:
     anticipation:
       name: Anticipació
       goal: Vetllar per garantir una herència territorial de qualitat per les pròximes generacions.
+
+  tasks: Per a fer-ho ens basem en les principals funcions de tota reserva
+  our_tasks:
+    conservation:
+      name: Conservació
+      task: Contribuint a la conservació dels paisatges, ecosistemes i biodiversitat.
+    development:
+      name: Desenvolupament
+      task: Promocionant un desenvolupament econòmic i humà sostenible ecològicament i socioculturalment.
+    logistics:
+      name: Suport Logístic
+      task: Fomentant projectes i accions de sensibilització i educació ambiental, així com la recerca i seguiment local d’iniciatives per la conservació i la sostenibilitat.

@@ -70,3 +70,25 @@ article { margin: 10rem auto; }
     }
   }
 }
+
+.cards {
+  @extend .grid;
+  @extend .grid--3;
+
+  margin: 4rem 0;
+
+  .card {
+    background: #fff;
+    padding: 0.25rem;
+    // height: 100%;
+    border-radius: 13px;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+
+    h3 { margin: 1.5rem 0.75rem 1rem; }
+    p { margin: 0.75rem; }
+  }
+}
