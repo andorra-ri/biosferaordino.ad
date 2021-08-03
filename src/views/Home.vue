@@ -31,6 +31,30 @@
         </section>
       </div>
     </article>
+
+    <!-- Galleries -->
+    <article id="galleries" class="streaked">
+      <div class="container grid grid--2 grid--center">
+        <ul class="gallery gallery--one">
+          <li v-for="i in 5" :key="i">
+            <img :src="`/images/gallery/${i}.png`">
+          </li>
+        </ul>
+        <section id="ordino">
+          <h2>{{ t('reserva_biosfera_ordino') }}</h2>
+          <p>{{ t('home.in_ordino') }}</p>
+        </section>
+        <section id="history">
+          <h2>{{ t('home.history') }}</h2>
+          <p>{{ t('home.our_history') }}</p>
+        </section>
+        <ul class="gallery gallery--two">
+          <li v-for="i in 5" :key="i">
+            <img :src="`/images/gallery/${i + 5}.png`">
+          </li>
+        </ul>
+      </div>
+    </article>
   </div>
 </template>
 
@@ -62,4 +86,25 @@ export default {
     margin-bottom: 0.75em;
   }
 }
+
+#galleries {
+  position: relative;
+  margin-top: -7.25rem;
+  padding-top: 0;
+
+  &::before {
+    content: '2020';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 00%);
+    bottom: 0;
+    font: 35vw 'Viga', Arial, sans-serif;
+    line-height: 0.5;
+    color: #fff;
+    z-index: 0;
+  }
+}
+
+#ordino { margin: 8rem 0 2rem; }
+#history { margin: 2rem 0 8rem; }
 </style>

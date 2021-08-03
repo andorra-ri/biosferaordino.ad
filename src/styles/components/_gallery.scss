@@ -1,0 +1,20 @@
+.gallery {
+  columns: 2;
+  column-gap: 2rem;
+  position: relative;
+
+  img {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  &--one {
+    margin: 7.25rem 0 -7.25rem;
+
+    li:first-child { margin-top: 3rem; }
+    li:nth-child(3) { break-before: column; }
+  }
+
+  &--two { margin: -7.25rem 0 7.25rem; }
+}
