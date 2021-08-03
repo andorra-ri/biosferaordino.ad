@@ -55,15 +55,38 @@
         </ul>
       </div>
     </article>
+
+    <!-- Images Compare -->
+    <image-compare
+      id="ordino-compare"
+      before="/images/compare/before.jpg"
+      after="/images/compare/after.jpg">
+      <template #before>
+        <i18n-t tag="h2" keypath="home.compare.before">
+          <template #em>
+            <em>{{ t('home.compare.before_em') }}</em>
+          </template>
+        </i18n-t>
+      </template>
+      <template #after>
+        <i18n-t tag="h2" keypath="home.compare.after">
+          <template #em>
+            <em>{{ t('home.compare.after_em') }}</em>
+          </template>
+        </i18n-t>
+      </template>
+    </image-compare>
   </div>
 </template>
 
 <script>
 import { useI18n } from 'vue-i18n';
+import ImageCompare from '/@/components/ImageCompare.vue';
 import { home } from '/@/config.yaml';
 
 export default {
   name: 'Home',
+  components: { ImageCompare },
   setup() {
     const { t } = useI18n();
     return { t, ...home };

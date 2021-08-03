@@ -24,3 +24,9 @@ home:
   in_ordino: La Reserva de la Biosfera d'Ordino és un ​​exemple de paisatges i comunitats de muntanya, on un estil de vida sostenible marca la diferència i on ja s'hi està realitzant una transformació positiva. Diferenciem el nostre territori per demostrar que és possible viure en harmonia amb la natura sense renunciar al benestar social.
   history: Història
   our_history: El Comú d'Ordino inicia l'any 2019 el procés de candidatura per al reconeixement de la Parròquia com la primera Reserva de la Biosfera a escala nacional, i la segona a escala dels Pirineus. El procés, que va incloure una fase informativa i participativa de tots els sectors i actors del territori, s'allarga fins a l'octubre del 2020 quan el Consell Internacional de Coordinació del programa MAB, en la seva en la seva 32a sessió de la UNESCO, designa oficialment la Parròquia d'Ordino com a Reserva de la Biosfera i aquesta passa a integrar-se a la xarxa Europea de Reserves de la Biosfera dins l'eix temàtic de muntanya.
+
+  compare:
+    before: Les arrels del que {em}
+    before_em: érem
+    after: La llavor del que {em}
+    after_em: serem
