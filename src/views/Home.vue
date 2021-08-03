@@ -121,6 +121,19 @@
         </div>
       </div>
     </article>
+
+    <!-- Management -->
+    <article id="management">
+      <div class="container grid grid--2 grid--center">
+        <section class="description">
+          <h2>{{ t('home.management') }}</h2>
+          <p>{{ t('home.responsible') }}</p>
+          <p>{{ t('home.commission') }}</p>
+          <p>{{ t('home.citizens') }}</p>
+        </section>
+        <img src="https://source.unsplash.com/Qs_Zkak27Jk" alt="Gestió" class="rounded">
+      </div>
+    </article>
   </div>
 </template>
 
