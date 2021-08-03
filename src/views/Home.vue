@@ -76,6 +76,19 @@
         </i18n-t>
       </template>
     </image-compare>
+
+    <!-- Goals -->
+    <article id="goals">
+      <div class="container">
+        <h2>{{ t('home.goals') }}</h2>
+        <ul class="list">
+          <li v-for="goal in goals" :key="goal">
+            <h3>{{ t(`home.our_goals.${goal}.name`) }}</h3>
+            <p>{{ t(`home.our_goals.${goal}.goal`) }}</p>
+          </li>
+        </ul>
+      </div>
+    </article>
   </div>
 </template>
 

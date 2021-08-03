@@ -13,3 +13,10 @@ home:
     strategy: https://unesdoc.unesco.org/ark:/48223/pf0000103849_fre
     action_plan: http://www.unesco.org/new/en/natural-sciences/environment/ecological-sciences/man-and-biosphere-programme/strategy-and-action-plan/
     ods: https://www.exteriors.ad/ca/ods
+
+  goals:
+    - internationalization
+    - sustainability
+    - experimentation
+    - cooperation
+    - anticipation

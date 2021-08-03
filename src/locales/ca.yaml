@@ -30,3 +30,21 @@ home:
     before_em: érem
     after: La llavor del que {em}
     after_em: serem
+
+  goals: Objectius
+  our_goals:
+    internationalization:
+      name: Internacionalització
+      goal: Adquirir un distintiu d’abast global que posicioni i consolidi Ordino com un destí referent de qualitat certificada.
+    sustainability:
+      name: Sostenibilitat
+      goal: Aconseguir un desenvolupament econòmic i social, basat en els Objectius de Desenvolupament Sostenible.
+    experimentation:
+      name: Experimentació
+      goal: Convertir-se en un espai d'aprenentatge, innovació i experimentació al voltant de la sostenibilitat.
+    cooperation:
+      name: Cooperació
+      goal: Fomentar l'intercanvi d’experiències i coneixements entre els seus habitants i els d’altres regions similars d’arreu del món.
+    anticipation:
+      name: Anticipació
+      goal: Vetllar per garantir una herència territorial de qualitat per les pròximes generacions.
