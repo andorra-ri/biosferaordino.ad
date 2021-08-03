@@ -103,6 +103,24 @@
         </ul>
       </div>
     </article>
+
+    <!-- Logo anatomy -->
+    <article id="logo-anatomy">
+      <div class="container center">
+        <h2>{{ t('home.logo') }}</h2>
+        <div class="mapper">
+          <img src="/images/logo.svg" alt="Logotip" class="logo">
+          <span
+            :data-tooltip-left="t('home.logo_shape')"
+            class="marker"
+            style="--top: 23%; --left: 23%;" />
+          <span
+            :data-tooltip-right="t('home.logo_corners')"
+            class="marker"
+            style="--top: 50%; --left: 72%;" />
+        </div>
+      </div>
+    </article>
   </div>
 </template>
 
@@ -157,4 +175,13 @@ export default {
 
 #ordino { margin: 8rem 0 2rem; }
 #history { margin: 2rem 0 8rem; }
+
+#logo-anatomy {
+  background: #0001;
+  margin: 0;
+  padding: 10rem 0;
+
+  .mapper { margin: 4rem auto 0; }
+  .logo { height: 15rem; }
+}
 </style>

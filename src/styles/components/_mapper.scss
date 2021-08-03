@@ -1,0 +1,28 @@
+.mapper {
+  position: relative;
+  display: inline-block;
+
+  .marker {
+    border-radius: 50%;
+    display: block;
+    border: 7px solid #fff;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    cursor: pointer;
+    animation: bang 2s ease infinite;
+
+    &:hover {
+      background: #000;
+      animation: none;
+      outline: 7px solid #fff8;
+    }
+  }
+}
+
+@keyframes bang {
+  from { outline: 1px solid #fff; }
+  to { outline: 15px solid transparent; }
+}
