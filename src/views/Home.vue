@@ -134,20 +134,45 @@
         <img src="https://source.unsplash.com/Qs_Zkak27Jk" alt="Gestió" class="rounded">
       </div>
     </article>
+
+    <!-- Social media photos -->
+    <article id="social-media" class="fill">
+      <div class="container center">
+        <h2>#biosferaordino</h2>
+        <p>{{ t('home.social_photos') }}</p>
+      </div>
+      <slide-marquee v-if="socialPhotos.length" :items="socialPhotos" :speed="10">
+        <template #default="{ item: photo }">
+          <figure>
+            <img :src="photo.image[0].url" alt="#biosferaordino">
+            <figcaption>@{{ photo.username }}</figcaption>
+          </figure>
+        </template>
+      </slide-marquee>
+    </article>
   </div>
 </template>
 
 <script>
+import { ref, onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
 import ImageCompare from '/@/components/ImageCompare.vue';
+import SlideMarquee from '/@/components/SlideMarquee.vue';
 import { home } from '/@/config.yaml';
+import api from '/@/api.service';
 
 export default {
   name: 'Home',
-  components: { ImageCompare },
+  components: { ImageCompare, SlideMarquee },
   setup() {
     const { t } = useI18n();
-    return { t, ...home };
+    const socialPhotos = ref([]);
+
+    onMounted(async () => {
+      socialPhotos.value = await api.getSocialPhotos();
+    });
+
+    return { t, ...home, socialPhotos };
   },
 };
 </script>
@@ -196,5 +221,25 @@ export default {
 
   .mapper { margin: 4rem auto 0; }
   .logo { height: 15rem; }
+}
+
+#social-media {
+  .slide-marquee {
+    margin-top: 5rem;
+  }
+
+  figure {
+    margin: 0 2rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    width: 15rem;
+    color: #0003;
+
+    img {
+      max-height: 15rem;
+      max-width: 100%;
+      border-radius: 0.75rem;
+    }
+  }
 }
 </style>
