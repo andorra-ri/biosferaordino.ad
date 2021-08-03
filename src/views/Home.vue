@@ -11,6 +11,26 @@
         <h1>{{ t('reserva_biosfera_ordino') }}</h1>
       </div>
     </header>
+
+    <!-- Introduction -->
+    <article id="intro">
+      <div class="container grid grid--2x1 grid--center">
+        <section class="definition">
+          <h2>{{ t('home.what_is') }}</h2>
+          <p>{{ t('home.definition') }}</p>
+          <p>{{ t('home.objectives') }}</p>
+          <p>{{ t('home.acknowledgement') }}</p>
+        </section>
+        <section id="unesco">
+          <img src="/images/unesco.svg" alt="UNESCO" class="logo">
+          <ul>
+            <li v-for="(link, name) in unesco" :key="name">
+              <a :href="link" target="blank">{{ t(`home.unesco.${name}`) }}</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </article>
   </div>
 </template>
 
@@ -22,8 +42,24 @@ export default {
   name: 'Home',
   setup() {
     const { t } = useI18n();
-    const { video } = home;
-    return { t, video };
+    return { t, ...home };
   },
 };
 </script>
+
+<style lang="scss" scoped>
+#unesco {
+  display: flex;
+
+  .logo {
+    height: 6.5rem;
+    margin-right: 1.75rem;
+  }
+
+  a {
+    display: block;
+    color: #117bd2;
+    margin-bottom: 0.75em;
+  }
+}
+</style>
