@@ -104,6 +104,23 @@
       </div>
     </article>
 
+    <!-- Zoning scrollama -->
+    <article id="zoning" :class="zoning.active">
+      <div class="container grid grid--2">
+        <img id="zones-animation" v-svg-inline src="/images/reserve_zones.svg">
+        <scrollama step=".step" @enter="zoning.change">
+          <section
+            v-for="zone in ['global', 'core', 'buffer', 'transition']"
+            :key="zone"
+            :data-zone="zone"
+            class="step">
+            <h2>{{ t(`home.zones.${zone}.name`) }}</h2>
+            <p>{{ t(`home.zones.${zone}.desc`) }}</p>
+          </section>
+        </scrollama>
+      </div>
+    </article>
+
     <!-- Logo anatomy -->
     <article id="logo-anatomy">
       <div class="container center">
@@ -157,22 +174,29 @@
 import { ref, onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
 import ImageCompare from '/@/components/ImageCompare.vue';
+import Scrollama from '/@/components/Scrollama.vue';
 import SlideMarquee from '/@/components/SlideMarquee.vue';
 import { home } from '/@/config.yaml';
 import api from '/@/api.service';
 
 export default {
   name: 'Home',
-  components: { ImageCompare, SlideMarquee },
+  components: { ImageCompare, Scrollama, SlideMarquee },
   setup() {
     const { t } = useI18n();
     const socialPhotos = ref([]);
+    const zoning = ref({
+      active: 'global',
+      change: ({ element }) => {
+        zoning.value.active = `in-${element.dataset.zone}`;
+      },
+    });
 
     onMounted(async () => {
       socialPhotos.value = await api.getSocialPhotos();
     });
 
-    return { t, ...home, socialPhotos };
+    return { t, ...home, socialPhotos, zoning };
   },
 };
 </script>
@@ -240,6 +264,20 @@ export default {
       max-width: 100%;
       border-radius: 0.75rem;
     }
+  }
+}
+
+#zoning {
+  .step {
+    padding: 5rem 0;
+    margin: 5rem 0;
+  }
+
+  #zones-animation {
+    height: 50vh;
+    width: 100%;
+    position: sticky;
+    top: calc(50% - 25vh);
   }
 }
 </style>

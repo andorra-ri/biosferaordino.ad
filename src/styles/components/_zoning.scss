@@ -1,0 +1,90 @@
+svg {
+  .parrishes {
+    fill: #e8e8ef;
+    stroke: #fff;
+    stroke-width: 3px;
+    opacity: 0;
+    transition: opacity 1s ease;
+
+    .in-global & {
+      opacity: 1;
+      transition: opacity 1s ease 0.5s;
+    }
+  }
+
+  .reserve {
+    transform-origin: 20% top;
+    transform: scale(2);
+    transition: transform 1s ease-out;
+
+    .in-global & {
+      transform: none;
+      transition: transform 1s ease 0.5s;
+    }
+  }
+
+  .buffer {
+    fill: #e8e8ef;
+    stroke: #fff;
+    stroke-width: 3px;
+    transition: all 1s ease 0.5s;
+
+    .in-global & {
+      fill: #656674;
+    }
+
+    .in-buffer & {
+      fill: #656674;
+      transition: all 1s ease 1s;
+    }
+
+    .in-core &,
+    .in-transition & { transition: all 1s ease; }
+
+    &-text {
+      fill: #fff;
+      opacity: 0;
+      transition: all 1s ease 0.5s;
+
+      .in-global & {
+        opacity: 1;
+      }
+    }
+  }
+
+  .core {
+    fill: #e8e8ef;
+    transition: all 1s ease;
+
+    .in-global & { opacity: 0; }
+
+    .in-core & {
+      fill: #656674;
+      transition: all 1s ease 1s;
+    }
+
+    &-text {
+      font-size: 8px;
+      fill: #fff;
+      opacity: 0;
+
+      .in-core & {
+        opacity: 1;
+        transition: all 1s ease 1s;
+      }
+    }
+  }
+
+  .transition {
+    fill: #e8e8ef;
+    transition: all 1s ease;
+
+    .in-core &,
+    .in-global & { opacity: 0; }
+
+    .in-transition & {
+      fill: #656674;
+      transition: all 1s ease 1s;
+    }
+  }
+}

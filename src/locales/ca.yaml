@@ -61,6 +61,20 @@ home:
       name: Suport Logístic
       task: Fomentant projectes i accions de sensibilització i educació ambiental, així com la recerca i seguiment local d’iniciatives per la conservació i la sostenibilitat.
 
+  zones:
+    global:
+      name: Zonificació de la Reserva de la Biosfera
+      desc: Per poder desplegar les seves funcions, és necessària una zonificació específica del territori.
+    core:
+      name: La Zona Nucli
+      desc: Correspon als límits del Parc Natural de Sorteny, ocupant una superfície de 1080 ha. La vall de Sorteny és una de les millors representacions dels ecosistemes de muntanya del Pirineu tant en l'àmbit biològic com cultural. En termes generals, al Parc s'hi pot realitzar turisme sostenible, ramaderia extensiva tradicional, accions d'educació ambiental i activitats de recerca científica.
+    buffer:
+      name: La Zona Tampó
+      desc: Ocupa un total de 6134 ha, que representa el 72% de la superfície de la Reserva. Està composta majoritàriament pels boscos, pastures i muntanyes públiques d'Ordino. Les activitats permeses són totes aquelles que tinguin un baix impacte ambiental sobre el medi com la ramaderia, la gestió forestal sostenible, la caça i pesca, les activitats lúdiques i esportives de muntanya, etc. Tanmateix, cal respectar les ordinacions que regulen certs usos i activitats dins la zona tampó, com l'accés motoritzat o l'acampada.
+    transition:
+      name: La Zona de Transició
+      desc: Engloba totes les àrees urbanes i rurals, que majoritàriament es localitzen al fons de vall, i suposen un 14,8% de la superfície de la Reserva. Aquesta zona està destinada a fomentar el desenvolupament social i econòmic des de l'òptica de la sostenibilitat. En aquesta àrea s'hi preveu el desplegament de qualsevol classe d'activitat segons la legislació vigent, com per exemple l'urbanisme, que queda regulat pel Pla d'Ordenació Urbanística Parroquial d'Ordino.
+
   logo: El logo de la Reserva de la Biosfera
   logo_shape: 'El logotip de la Reserva reflecteix els dos factors claus de la mateixa: la natura, representada per la flor central, basada en Sorteny, i l’activitat humana, mitjançant les fulles que simbolitzen persones de braços oberts.'
   logo_corners: Els quatre enfocaments de la reserva -geogràfic, natural, econòmic, i social/cultural- queden dibuixats en les quatre fletxes de direcció que, en conjunt, construeixen l’espai del logo de la O d’Ordino en negatiu. Els colors escollits són càlids i dinàmics, que són més humans, donat que els éssers humans són al centre dels intercanvis i els aprenentatges cap a un desenvolupament més sostenible.
