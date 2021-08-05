@@ -51,7 +51,7 @@ export default {
 <style lang="scss" scoped>
 footer {
   border-top: 2px solid #f5f5f5;
-  padding: 10rem 0 0;
+  padding: 10rem 3rem 0;
 }
 
 ul.contact {
