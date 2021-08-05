@@ -45,6 +45,23 @@
         <p><a href="#" class="cta">{{ t('discover.activities.link') }}</a></p>
       </div>
     </div>
+
+    <!-- Responsibility -->
+    <article id="responsibility">
+      <div class="container">
+        <h2>{{ t('discover.responsibility.title') }}</h2>
+        <p>
+          {{ t('discover.responsibility.us_all') }}
+          <br>{{ t('discover.responsibility.follow_principles') }}
+        </p>
+        <ul class="list">
+          <li v-for="principle in principles" :key="principle">
+            <h3>{{ t(`discover.responsibility.principles.${principle}.name`) }}</h3>
+            <p>{{ t(`discover.responsibility.principles.${principle}.text`) }}</p>
+          </li>
+        </ul>
+      </div>
+    </article>
   </div>
 </template>
 

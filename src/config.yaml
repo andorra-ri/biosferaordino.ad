@@ -40,6 +40,14 @@ discover:
       text: 2
       image: https://source.unsplash.com/nF8xhLMmg0c/600x500
       link: https://www.ordino.ad/ordino
+  principles:
+    - waste
+    - footprint
+    - wildlife
+    - private
+    - users
+    - join
+
 # Airtable API config
 api:
   base: app8cLkInnlaYQ6Zy

@@ -108,6 +108,30 @@ discover:
   activities:
     tagline: Descobreix l'oferta d'activitats de la Reserva de la Biosfera d'Ordino
     link: Descobreix les activitats
+  responsibility:
+    title: Corresponsabilitza't amb la Reserva
+    us_all: Assegurar i mantenir els valors de la reserva és cosa de tots.
+    follow_principles: Corresponsabilitza't amb el territori mitjançant l'adopció de 6 principis bàsics.
+    principles:
+      waste:
+        name: Redueix la petjada ecològica
+        text: Evita el malbaratament de recursos (energia, aigua, aliments, etc). Minimitza la generació de residus i CO₂. Prioritza l'economia circular i el consum de productes locals.
+      footprint:
+        name: No deixis rastre
+        text: Gaudeix dels espais i deixa'ls com si no hi haguessis estat.
+      wildlife:
+        name: Cuida la vida silvestre
+        text: Emporta't experiències i moments, però deixa la flora i la fauna allà on siguin. Mantén la distància amb la fauna i evita interactuar-hi.
+      private:
+        name: Respecta la propietat privada
+        text: Evita sortir dels camins senyalitzats i respecta les propietats privades en entorns naturals.
+      users:
+        name: Considera la resta d'usuaris
+        text: Sigues respectuós i considerat amb la resta d'usuaris i ajuda a construir un clima de bona convivència.
+      join:
+        name: Informa't i participa
+        text: Tu ets part fonamental de la reserva, estigues informat i participa activament.
+
 footer:
   tagline: Forma part dels ACTORS de la reserva
   get_in_touch: Si tens dubtes, un projecte en ment o simplement vols participar-hi, contacta'ns.
