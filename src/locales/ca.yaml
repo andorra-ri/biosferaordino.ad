@@ -132,6 +132,8 @@ discover:
         name: Informa't i participa
         text: Tu ets part fonamental de la reserva, estigues informat i participa activament.
 
+projects:
+  tagline: Projectes de la Reserva de la Biosfera
 footer:
   tagline: Forma part dels ACTORS de la reserva
   get_in_touch: Si tens dubtes, un projecte en ment o simplement vols participar-hi, contacta'ns.

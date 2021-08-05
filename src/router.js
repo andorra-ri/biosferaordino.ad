@@ -6,5 +6,6 @@ export default createRouter({
   routes: [
     { path: '/', component: Home },
     { path: '/descobreix', component: () => import('/@/views/Discover.vue') },
+    { path: '/projectes', component: () => import('/@/views/Projects.vue') },
   ],
 });
