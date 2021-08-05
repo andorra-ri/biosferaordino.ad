@@ -5,5 +5,6 @@ export default createRouter({
   history: createWebHistory(),
   routes: [
     { path: '/', component: Home },
+    { path: '/descobreix', component: () => import('/@/views/Discover.vue') },
   ],
 });
