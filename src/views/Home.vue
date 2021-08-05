@@ -94,7 +94,7 @@
     <article id="tasks" class="streaked">
       <div class="container">
         <h2 class="center">{{ t('home.tasks') }}</h2>
-        <ul class="cards">
+        <ul class="cards grid grid--3">
           <li v-for="task in tasks" :key="task" class="card">
             <img :src="`/images/${task}.png`">
             <h3>{{ t(`home.our_tasks.${task}.name`) }}</h3>

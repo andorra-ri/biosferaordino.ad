@@ -45,16 +45,18 @@ p {
 a {
   display: inline-block;
   color: inherit;
+}
 
-  &.cta {
-    text-decoration: none;
-    padding: 0.75rem 1rem;
-    border: 2px solid currentColor !important;
-  }
+.cta {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border: 2px solid currentColor !important;
 }
 
 .center {
   text-align: center;
   width: 70%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }

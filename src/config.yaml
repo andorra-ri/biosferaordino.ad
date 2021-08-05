@@ -52,6 +52,20 @@ discover:
 api:
   base: app8cLkInnlaYQ6Zy
   resources:
+    PROJECTS:
+      endpoint: projects
+      options:
+        fields:
+          - cover
+          - name_ca
+          - description_ca
+        sort:
+          order: asc
+        where:
+          constraints: 1
+          active:
+            checked: true
+
     SOCIAL_PHOTOS:
       endpoint: social_photos
       options:
