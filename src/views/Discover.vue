@@ -36,6 +36,15 @@
         </clipPath>
       </svg>
     </article>
+
+    <!-- Activities -->
+    <div class="hero">
+      <img src="https://source.unsplash.com/UVyOfX3v0Ls" class="cover">
+      <div class="container">
+        <h2>{{ t('discover.activities.tagline') }}</h2>
+        <p><a href="#" class="cta">{{ t('discover.activities.link') }}</a></p>
+      </div>
+    </div>
   </div>
 </template>
 

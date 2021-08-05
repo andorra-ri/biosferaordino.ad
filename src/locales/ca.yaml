@@ -105,6 +105,9 @@ discover:
         - 5300 habitants conformen el cor i l'ànima de la reserva d'Ordino. Ciutadans, agricultors, ramaders, comerciants o restauradors entre d'altres, són l'essència viva del dia a dia del territori. De fet, són els mateixos ciutadans i actors de la reserva els qui, conscients dels valors d'Ordino, consideren fonamental seguir treballant per assolir la sostenibilitat del territori i garantir una qualitat de vida per a les properes generacions.
         - 'L’activitat social de la reserva es distribueix al llarg de 8 poblacions: Ordino i Segudet, Sornàs, Ansalonga, la Cortinada i Arans, Llorts i el Serrat.'
       link: Coneix la nostra gent
+  activities:
+    tagline: Descobreix l'oferta d'activitats de la Reserva de la Biosfera d'Ordino
+    link: Descobreix les activitats
 footer:
   tagline: Forma part dels ACTORS de la reserva
   get_in_touch: Si tens dubtes, un projecte en ment o simplement vols participar-hi, contacta'ns.
