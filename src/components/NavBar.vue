@@ -82,7 +82,7 @@ export default {
 
     .logo {
       height: 3rem;
-      filter: brightness(0);
+      filter: none;
     }
   }
 
