@@ -9,10 +9,13 @@
   "dependencies": {
     "install": "^0.13.0",
     "npm": "^7.20.3",
+    "painless-airtable": "^0.2.1",
     "reset-css": "^5.0.1",
+    "scrollama": "^2.2.2",
     "vue": "^3.0.5",
     "vue-i18n": "^9.1.7",
-    "vue-router": "^4.0.10"
+    "vue-router": "^4.0.10",
+    "vue-svg-inline-plugin": "^2.2.0"
   },
   "devDependencies": {
     "@intlify/vite-plugin-vue-i18n": "^2.4.0",

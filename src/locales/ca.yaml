@@ -7,3 +7,81 @@ nav:
   resources: Recursos
 
 join: Participa
+
+home:
+  what_is: Què és una Reserva de la Biosfera?
+  definition: Les Reserves de la Biosfera són territoris que actuen com a laboratoris vius del desenvolupament sostenible.
+  objectives: En elles, l'activitat humana es desenvolupa de forma compatible amb la conservació dels recursos naturals i del patrimoni cultural. El seu principal objectiu és establir una base científica per la millora de les relacions entre les persones i el seu entorn, fomentant l'aplicació dels Objectius de Desenvolupament Sostenible.
+  acknowledgement: Les reserves de la biosfera són territoris reconeguts internacionalment pel programa l'Home i la Biosfera – MAB de la UNESCO.
+
+  unesco:
+    programme: Programa MAB
+    biosphere_reserve: Reserva de la Biosfera
+    strategy: Estratègia MAB
+    action_plan: Pla d'acció MAB
+    ods: Objectius de Desenvolupament Sostenible
+
+  in_ordino: La Reserva de la Biosfera d'Ordino és un ​​exemple de paisatges i comunitats de muntanya, on un estil de vida sostenible marca la diferència i on ja s'hi està realitzant una transformació positiva. Diferenciem el nostre territori per demostrar que és possible viure en harmonia amb la natura sense renunciar al benestar social.
+  history: Història
+  our_history: El Comú d'Ordino inicia l'any 2019 el procés de candidatura per al reconeixement de la Parròquia com la primera Reserva de la Biosfera a escala nacional, i la segona a escala dels Pirineus. El procés, que va incloure una fase informativa i participativa de tots els sectors i actors del territori, s'allarga fins a l'octubre del 2020 quan el Consell Internacional de Coordinació del programa MAB, en la seva en la seva 32a sessió de la UNESCO, designa oficialment la Parròquia d'Ordino com a Reserva de la Biosfera i aquesta passa a integrar-se a la xarxa Europea de Reserves de la Biosfera dins l'eix temàtic de muntanya.
+
+  compare:
+    before: Les arrels del que {em}
+    before_em: érem
+    after: La llavor del que {em}
+    after_em: serem
+
+  goals: Objectius
+  our_goals:
+    internationalization:
+      name: Internacionalització
+      goal: Adquirir un distintiu d’abast global que posicioni i consolidi Ordino com un destí referent de qualitat certificada.
+    sustainability:
+      name: Sostenibilitat
+      goal: Aconseguir un desenvolupament econòmic i social, basat en els Objectius de Desenvolupament Sostenible.
+    experimentation:
+      name: Experimentació
+      goal: Convertir-se en un espai d'aprenentatge, innovació i experimentació al voltant de la sostenibilitat.
+    cooperation:
+      name: Cooperació
+      goal: Fomentar l'intercanvi d’experiències i coneixements entre els seus habitants i els d’altres regions similars d’arreu del món.
+    anticipation:
+      name: Anticipació
+      goal: Vetllar per garantir una herència territorial de qualitat per les pròximes generacions.
+
+  tasks: Per a fer-ho ens basem en les principals funcions de tota reserva
+  our_tasks:
+    conservation:
+      name: Conservació
+      task: Contribuint a la conservació dels paisatges, ecosistemes i biodiversitat.
+    development:
+      name: Desenvolupament
+      task: Promocionant un desenvolupament econòmic i humà sostenible ecològicament i socioculturalment.
+    logistics:
+      name: Suport Logístic
+      task: Fomentant projectes i accions de sensibilització i educació ambiental, així com la recerca i seguiment local d’iniciatives per la conservació i la sostenibilitat.
+
+  zones:
+    global:
+      name: Zonificació de la Reserva de la Biosfera
+      desc: Per poder desplegar les seves funcions, és necessària una zonificació específica del territori.
+    core:
+      name: La Zona Nucli
+      desc: Correspon als límits del Parc Natural de Sorteny, ocupant una superfície de 1080 ha. La vall de Sorteny és una de les millors representacions dels ecosistemes de muntanya del Pirineu tant en l'àmbit biològic com cultural. En termes generals, al Parc s'hi pot realitzar turisme sostenible, ramaderia extensiva tradicional, accions d'educació ambiental i activitats de recerca científica.
+    buffer:
+      name: La Zona Tampó
+      desc: Ocupa un total de 6134 ha, que representa el 72% de la superfície de la Reserva. Està composta majoritàriament pels boscos, pastures i muntanyes públiques d'Ordino. Les activitats permeses són totes aquelles que tinguin un baix impacte ambiental sobre el medi com la ramaderia, la gestió forestal sostenible, la caça i pesca, les activitats lúdiques i esportives de muntanya, etc. Tanmateix, cal respectar les ordinacions que regulen certs usos i activitats dins la zona tampó, com l'accés motoritzat o l'acampada.
+    transition:
+      name: La Zona de Transició
+      desc: Engloba totes les àrees urbanes i rurals, que majoritàriament es localitzen al fons de vall, i suposen un 14,8% de la superfície de la Reserva. Aquesta zona està destinada a fomentar el desenvolupament social i econòmic des de l'òptica de la sostenibilitat. En aquesta àrea s'hi preveu el desplegament de qualsevol classe d'activitat segons la legislació vigent, com per exemple l'urbanisme, que queda regulat pel Pla d'Ordenació Urbanística Parroquial d'Ordino.
+
+  logo: El logo de la Reserva de la Biosfera
+  logo_shape: 'El logotip de la Reserva reflecteix els dos factors claus de la mateixa: la natura, representada per la flor central, basada en Sorteny, i l’activitat humana, mitjançant les fulles que simbolitzen persones de braços oberts.'
+  logo_corners: Els quatre enfocaments de la reserva -geogràfic, natural, econòmic, i social/cultural- queden dibuixats en les quatre fletxes de direcció que, en conjunt, construeixen l’espai del logo de la O d’Ordino en negatiu. Els colors escollits són càlids i dinàmics, que són més humans, donat que els éssers humans són al centre dels intercanvis i els aprenentatges cap a un desenvolupament més sostenible.
+
+  management: La gestió de la Reserva
+  responsible: El Comú d'Ordino és el responsable institucional de la Reserva i s'encarrega de la seva gestió mitjançant la Comissió de Coordinació del Pla de Gestió de la Reserva de la Biosfera d'Ordino.
+  commission: La Comissió de Coordinació està composta per la Junta de Govern, el Consell del Comú, així com pels caps dels Departaments de la institució, que al seu torn estableixen taules sectorials de treball amb els actors del territori.
+  citizens: Qualsevol ciutadà de la reserva pot ser part activa d'alguna de les taules o iniciatives de treball. La participació de tots els actors és clau pel bon funcionament de la reserva.
+
+  social_photos: 'Utilitza el hashtag #biosferaordino a les xarxes socials per compartir què és per tu Ordino, Reserva de la Biosfera.'
