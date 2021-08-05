@@ -134,6 +134,11 @@ discover:
 
 projects:
   tagline: Projectes de la Reserva de la Biosfera
+  title: Els projectes
+  intro: En el marc del Pla d'Acció de la reserva, s'està treballant en diversos projectes per fomentar la conservació i dinamització del territori, la sostenibilitat, la recerca i la sensibilització de la ciutadania.
+  more: Veure més projectes
+  less: Veure menys projectes
+
 footer:
   tagline: Forma part dels ACTORS de la reserva
   get_in_touch: Si tens dubtes, un projecte en ment o simplement vols participar-hi, contacta'ns.
