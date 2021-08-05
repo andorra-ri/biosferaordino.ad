@@ -86,6 +86,52 @@ home:
 
   social_photos: 'Utilitza el hashtag #biosferaordino a les xarxes socials per compartir què és per tu Ordino, Reserva de la Biosfera.'
 
+discover:
+  heritage:
+    natural:
+      name: El nostre patrimoni natural
+      text:
+        - D'entre les diverses valls naturals com la de Rialp o la de l'Angonella, destaca la vall de Sorteny, l'únic espai natural protegit de la parròquia d'Ordino des del 1999. La diversitat d'hàbitats i el bon estat de conservació del medi ambient expliquen la gran riquesa florística d'aquest l'espai, amb més de 800 espècies de flora en tan sols 1.000 hectàrees d'extensió. Un dels aspectes més destacables de Sorteny és la riquesa i diversitat de molleres i torberes, així com el refugi de flora rara o amenaçada, amb 50 espècies endèmiques dels Pirineus. Per aquests motius, el Parc Natural de Sorteny forma part del Conveni Ramsar així com de la Xarxa Maragda de protecció de la biodiversitat del Consell d'Europa.
+      link: Parc Natural de Sorteny
+    cultural:
+      name: El nostre patrimoni cultural
+      text:
+        - Ordino té un ric i divers patrimoni cultural material i immaterial, fruit de l'enginy i l'esforç de la seva gent per afrontar els reptes socioeconòmics de cada moment.
+        - Per les seves especificitats, els paisatges culturals de la reserva contribueixen a la identitat local i reflecteixen la història i les interaccions entre les comunitats i la natura. Els orris i pletes, les cabanes i bordes, les fargues i molins, les esglésies i capelles, les festivitats i les tradicions, són el testimoni viu d'aquesta interacció, el llegat dels nostres avantpassats.
+      link: Oferta cultural
+    people:
+      name: La nostra gent
+      text:
+        - 5300 habitants conformen el cor i l'ànima de la reserva d'Ordino. Ciutadans, agricultors, ramaders, comerciants o restauradors entre d'altres, són l'essència viva del dia a dia del territori. De fet, són els mateixos ciutadans i actors de la reserva els qui, conscients dels valors d'Ordino, consideren fonamental seguir treballant per assolir la sostenibilitat del territori i garantir una qualitat de vida per a les properes generacions.
+        - 'L’activitat social de la reserva es distribueix al llarg de 8 poblacions: Ordino i Segudet, Sornàs, Ansalonga, la Cortinada i Arans, Llorts i el Serrat.'
+      link: Coneix la nostra gent
+  activities:
+    tagline: Descobreix l'oferta d'activitats de la Reserva de la Biosfera d'Ordino
+    link: Descobreix les activitats
+  responsibility:
+    title: Corresponsabilitza't amb la Reserva
+    us_all: Assegurar i mantenir els valors de la reserva és cosa de tots.
+    follow_principles: Corresponsabilitza't amb el territori mitjançant l'adopció de 6 principis bàsics.
+    principles:
+      waste:
+        name: Redueix la petjada ecològica
+        text: Evita el malbaratament de recursos (energia, aigua, aliments, etc). Minimitza la generació de residus i CO₂. Prioritza l'economia circular i el consum de productes locals.
+      footprint:
+        name: No deixis rastre
+        text: Gaudeix dels espais i deixa'ls com si no hi haguessis estat.
+      wildlife:
+        name: Cuida la vida silvestre
+        text: Emporta't experiències i moments, però deixa la flora i la fauna allà on siguin. Mantén la distància amb la fauna i evita interactuar-hi.
+      private:
+        name: Respecta la propietat privada
+        text: Evita sortir dels camins senyalitzats i respecta les propietats privades en entorns naturals.
+      users:
+        name: Considera la resta d'usuaris
+        text: Sigues respectuós i considerat amb la resta d'usuaris i ajuda a construir un clima de bona convivència.
+      join:
+        name: Informa't i participa
+        text: Tu ets part fonamental de la reserva, estigues informat i participa activament.
+
 footer:
   tagline: Forma part dels ACTORS de la reserva
   get_in_touch: Si tens dubtes, un projecte en ment o simplement vols participar-hi, contacta'ns.

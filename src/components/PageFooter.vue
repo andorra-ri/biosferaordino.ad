@@ -1,23 +1,21 @@
 <template>
-  <footer>
-    <article>
-      <div class="container grid grid--2">
-        <div id="join">
-          <h2>{{ t('footer.tagline') }}</h2>
-          <p>{{ t('footer.get_in_touch') }}</p>
-          <ul class="contact">
-            <li class="email">
-              <img v-svg-inline src="/images/icons/mail.svg" class="icon">
-              <a href="mailto:biosfera@ordino.ad">biosfera@ordino.ad</a>
-            </li>
-            <li class="phone">
-              <img v-svg-inline src="/images/icons/phone.svg" class="icon">
-              <a href="tel:+376878100">+376 878 100</a>
-            </li>
-          </ul>
-        </div>
+  <footer class="container">
+    <div class="grid grid--2">
+      <div id="join">
+        <h2>{{ t('footer.tagline') }}</h2>
+        <p>{{ t('footer.get_in_touch') }}</p>
+        <ul class="contact">
+          <li class="email">
+            <img v-svg-inline src="/images/icons/mail.svg" class="icon">
+            <a href="mailto:biosfera@ordino.ad">biosfera@ordino.ad</a>
+          </li>
+          <li class="phone">
+            <img v-svg-inline src="/images/icons/phone.svg" class="icon">
+            <a href="tel:+376878100">+376 878 100</a>
+          </li>
+        </ul>
       </div>
-    </article>
+    </div>
     <section id="credits">
       <p class="logos">
         <img
@@ -51,6 +49,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+footer {
+  border-top: 2px solid #f5f5f5;
+  padding: 10rem 0 0;
+}
+
 ul.contact {
   margin: 2rem 0;
 
@@ -72,6 +75,7 @@ ul.contact {
 #credits {
   margin: 2rem;
   color: #0005;
+  text-align: center;
 
   p { font-size: 0.75rem; }
 

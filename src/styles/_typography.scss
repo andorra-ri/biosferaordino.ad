@@ -43,9 +43,14 @@ p {
 }
 
 a {
+  display: inline-block;
   color: inherit;
 
-  &.cta { border: 2px solid currentColor !important; }
+  &.cta {
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    border: 2px solid currentColor !important;
+  }
 }
 
 .center {
