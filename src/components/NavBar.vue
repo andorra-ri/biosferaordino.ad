@@ -10,7 +10,7 @@
           <li v-for="(path, name) in nav" :key="name">
             <router-link :to="path">{{ t(`nav.${name}`) }}</router-link>
           </li>
-          <li><a href="#footer" class="cta">{{ t('join') }}</a></li>
+          <li><a v-smooth-scroll href="#join" class="cta">{{ t('join') }}</a></li>
         </ul>
       </nav>
     </div>
