@@ -73,6 +73,8 @@ export default {
       position: relative;
 
       &.router-link-active { border-color: currentColor; }
+
+      &.cta { margin-left: 1rem; }
     }
   }
 

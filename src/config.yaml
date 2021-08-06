@@ -66,6 +66,20 @@ api:
           active:
             checked: true
 
+    DOCUMENTS:
+      endpoint: documents
+      options:
+        fields:
+          - name_ca
+          - category
+          - file
+        sort:
+          order: asc
+        where:
+          constraints: 1
+          active:
+            checked: true
+
     SOCIAL_PHOTOS:
       endpoint: social_photos
       options:
