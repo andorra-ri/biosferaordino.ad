@@ -141,6 +141,18 @@ projects:
 
 resources:
   tagline: Recursos de la Reserva de la Biosfera
+  watch_documents: Consultar documents
+  sections:
+    CANDIDACY:
+      name: Procés de candidatura
+      text: Consulta i descarrega't tots els documents generats durant el procés de candidatura de la Reserva de la Biosfera d'Ordino.
+    OFFICIAL:
+      name: Documents oficials
+      text: Consulta i descarrega't els documents oficials de la Reserva de la Biosfera i la seva gestió.
+    MEDIA:
+      name: Medis de comunicació
+      text: Consulta i descarrega't les comunicacions de premsa de la Reserva de la Biosfera d'Ordino.
+
 footer:
   tagline: Forma part dels ACTORS de la reserva
   get_in_touch: Si tens dubtes, un projecte en ment o simplement vols participar-hi, contacta'ns.

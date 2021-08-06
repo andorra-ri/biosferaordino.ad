@@ -6,9 +6,10 @@ const airtable = useAirtable({
   token: import.meta.env.VITE_AIRTABLE_TOKEN,
 });
 
-const { SOCIAL_PHOTOS, PROJECTS } = api.resources;
+const { SOCIAL_PHOTOS, PROJECTS, DOCUMENTS } = api.resources;
 
 export default {
   getSocialPhotos: () => airtable.select(SOCIAL_PHOTOS.endpoint, SOCIAL_PHOTOS.options),
   getProjects: () => airtable.select(PROJECTS.endpoint, PROJECTS.options),
+  getDocuments: () => airtable.select(DOCUMENTS.endpoint, DOCUMENTS.options),
 };
