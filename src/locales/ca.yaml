@@ -139,6 +139,8 @@ projects:
   more: Veure més projectes
   less: Veure menys projectes
 
+resources:
+  tagline: Recursos de la Reserva de la Biosfera
 footer:
   tagline: Forma part dels ACTORS de la reserva
   get_in_touch: Si tens dubtes, un projecte en ment o simplement vols participar-hi, contacta'ns.
