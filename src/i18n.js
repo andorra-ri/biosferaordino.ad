@@ -1,8 +1,6 @@
 import { createI18n } from 'vue-i18n';
-
-import ca from '/@/locales/ca.yaml';
-
-const messages = { ca };
+/* eslint-disable-next-line import/no-unresolved */
+import messages from '@intlify/vite-plugin-vue-i18n/messages';
 
 export default createI18n({
   locale: 'ca',

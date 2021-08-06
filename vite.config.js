@@ -11,7 +11,7 @@ export default defineConfig({
     yaml(),
     vueI18n({
       compositionOnly: true,
-      include: path.resolve(__dirname, './src/locales'),
+      include: path.resolve(__dirname, './src/locales/**'),
     }),
   ],
   resolve: {
