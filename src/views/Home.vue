@@ -96,7 +96,11 @@
         <h2 class="center">{{ t('home.tasks') }}</h2>
         <ul class="cards grid grid--3">
           <li v-for="task in tasks" :key="task" class="card">
-            <img :src="`/images/${task}.png`">
+            <header>
+              <figure class="cover rounded">
+                <img :src="`/images/${task}.png`">
+              </figure>
+            </header>
             <h3>{{ t(`home.our_tasks.${task}.name`) }}</h3>
             <p>{{ t(`home.our_tasks.${task}.task`) }}</p>
           </li>
@@ -130,11 +134,15 @@
           <span
             :data-tooltip-left="t('home.logo_shape')"
             class="marker"
-            style="--top: 23%; --left: 23%;" />
+            style="--top: 29%; --left: 32%;">
+            <em class="exploder" tabindex="1" />
+          </span>
           <span
             :data-tooltip-right="t('home.logo_corners')"
             class="marker"
-            style="--top: 50%; --left: 72%;" />
+            style="--top: 58%; --left: 75%;">
+            <em class="exploder" tabindex="1" />
+          </span>
         </div>
       </div>
     </article>
@@ -186,7 +194,7 @@ export default {
     const { t } = useI18n();
     const socialPhotos = ref([]);
     const zoning = ref({
-      active: 'global',
+      active: 'in-global',
       change: ({ element }) => {
         zoning.value.active = `in-${element.dataset.zone}`;
       },
@@ -271,6 +279,9 @@ export default {
   .step {
     padding: 5rem 0;
     margin: 5rem 0;
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 0 3rem #fff;
   }
 
   #zones-animation {
@@ -278,6 +289,7 @@ export default {
     width: 100%;
     position: sticky;
     top: calc(50% - 25vh);
+    z-index: 0;
   }
 }
 </style>

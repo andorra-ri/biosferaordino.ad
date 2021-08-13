@@ -3,7 +3,8 @@
     class="image-compare"
     :style="`--x:${xMask}`"
     @mouseenter="bindMouse"
-    @mouseleave="unbindMouse">
+    @mouseleave="unbindMouse"
+    @touchmove="onMove">
     <div class="before">
       <img :src="before">
       <slot name="before" />
@@ -27,7 +28,10 @@ export default {
   setup() {
     const xMask = ref('50%');
 
-    const onMove = ({ clientX }) => { xMask.value = `${clientX}px`; };
+    const onMove = event => {
+      const { clientX } = event.touches?.[0] || event;
+      xMask.value = `${clientX}px`;
+    };
 
     const bindMouse = ({ target }) => {
       target.addEventListener('mousemove', onMove);
@@ -39,7 +43,7 @@ export default {
       target.removeEventListener('touchemove', onMove);
     };
 
-    return { bindMouse, unbindMouse, xMask };
+    return { bindMouse, unbindMouse, onMove, xMask };
   },
 };
 </script>
@@ -58,8 +62,12 @@ export default {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    user-select: none;
 
-    img { all: inherit; }
+    img {
+      all: inherit;
+      pointer-events: none;
+    }
   }
 
   .before { clip-path: polygon(0 0%, calc(var(--x) - 1px) 0, calc(var(--x) - 1px) 100%, 0 100%); }

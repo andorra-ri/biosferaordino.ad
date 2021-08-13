@@ -6,6 +6,7 @@
 
 <script>
 import { onMounted, onUnmounted } from 'vue';
+import 'intersection-observer';
 import scrollama from 'scrollama';
 
 export default {
@@ -22,6 +23,7 @@ export default {
   emits: ['progress', 'enter', 'exit'],
   setup(props, { emit }) {
     const scroller = scrollama();
+
     onMounted(() => {
       scroller
         .setup(props)
@@ -32,9 +34,7 @@ export default {
       document.addEventListener('resize', scroller.resize());
     });
 
-    onUnmounted(() => {
-      document.removeEventListener('resize', scroller.resize());
-    });
+    onUnmounted(() => scroller.destroy());
     return {};
   },
 };

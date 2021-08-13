@@ -68,7 +68,7 @@ ul.contact {
     height: 1.5rem;
   }
 
-  .mail .icon { color: #9d1d96; }
+  .email .icon { color: #9d1d96; }
   .phone .icon { color: #ff9e18; }
 }
 

@@ -90,6 +90,7 @@ export default {
     width: 100%;
     object-fit: cover;
     clip-path: url(#petal-right);
+    max-width: 29rem;
   }
 
   section { position: relative; }

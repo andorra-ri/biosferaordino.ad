@@ -13,7 +13,11 @@
         <p class="center">{{ t('projects.intro') }}</p>
         <ul class="cards grid grid--2">
           <li v-for="project in visibleProjects" :key="project.name" class="card">
-            <img :src="project.cover[0].url">
+            <header>
+              <figure class="cover rounded">
+                <img :src="project.cover[0].url">
+              </figure>
+            </header>
             <h3>{{ project[`name_${locale}`] }}</h3>
             <p>{{ project[`description_${locale}`] }}</p>
           </li>

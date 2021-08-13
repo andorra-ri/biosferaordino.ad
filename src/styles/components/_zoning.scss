@@ -1,6 +1,9 @@
 svg {
+  --light-gray: #eeeef5;
+  --dark-gray: #9a9ba7;
+
   .parrishes {
-    fill: #e8e8ef;
+    fill: var(--light-gray);
     stroke: #fff;
     stroke-width: 3px;
     opacity: 0;
@@ -24,17 +27,17 @@ svg {
   }
 
   .buffer {
-    fill: #e8e8ef;
+    fill: var(--light-gray);
     stroke: #fff;
     stroke-width: 3px;
     transition: all 1s ease 0.5s;
 
     .in-global & {
-      fill: #656674;
+      fill: var(--dark-gray);
     }
 
     .in-buffer & {
-      fill: #656674;
+      fill: var(--dark-gray);
       transition: all 1s ease 1s;
     }
 
@@ -53,13 +56,13 @@ svg {
   }
 
   .core {
-    fill: #e8e8ef;
+    fill: var(--light-gray);
     transition: all 1s ease;
 
     .in-global & { opacity: 0; }
 
     .in-core & {
-      fill: #656674;
+      fill: var(--dark-gray);
       transition: all 1s ease 1s;
     }
 
@@ -76,14 +79,14 @@ svg {
   }
 
   .transition {
-    fill: #e8e8ef;
+    fill: var(--light-gray);
     transition: all 1s ease;
 
     .in-core &,
     .in-global & { opacity: 0; }
 
     .in-transition & {
-      fill: #656674;
+      fill: var(--dark-gray);
       transition: all 1s ease 1s;
     }
   }

@@ -8,9 +8,17 @@
         </label>
         <ul>
           <li v-for="(path, name) in nav" :key="name">
-            <router-link :to="path">{{ t(`nav.${name}`) }}</router-link>
+            <router-link :to="path" @click="closeNav">{{ t(`nav.${name}`) }}</router-link>
           </li>
-          <li><a v-smooth-scroll href="#join" class="cta">{{ t('join') }}</a></li>
+          <li>
+            <a
+              v-smooth-scroll
+              href="#join"
+              class="cta"
+              @click="closeNav">
+              {{ t('join') }}
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -29,7 +37,8 @@ export default {
   setup() {
     const { t } = useI18n();
     const open = ref(false);
-    return { t, open, nav };
+    const closeNav = () => { open.value = false; };
+    return { t, open, closeNav, nav };
   },
 };
 </script>
@@ -43,11 +52,12 @@ export default {
   color: #fff;
   transition: all 0.75s ease;
   z-index: 2;
+  padding: 1rem 0;
 
   .container {
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: 0 1rem;
   }
 
   .logo {
@@ -70,6 +80,7 @@ export default {
       padding: 0.75rem 1rem;
       text-decoration: none;
       border-bottom: 2px solid transparent;
+      text-align: center;
       position: relative;
 
       &.router-link-active { border-color: currentColor; }
@@ -81,9 +92,10 @@ export default {
   &.scrolled {
     background: #fff;
     color: #000;
+    padding: 0.75rem 0;
 
     .logo {
-      height: 3rem;
+      height: 3.5rem;
       filter: none;
     }
   }
@@ -104,7 +116,7 @@ export default {
       width: 100vw;
       height: 100vh;
       margin: 0;
-      padding: 8rem 2rem 4rem; // Must leave space for logo
+      padding: 8rem 2rem 6rem; // Must leave space for logo
       background: #fff;
       z-index: -1;
       box-sizing: border-box;
@@ -131,7 +143,7 @@ export default {
     .open {
       color: #000;
 
-      .logo { filter: brightness(0); }
+      .logo { filter: none; }
       .main-nav ul { display: flex; }
     }
   }
