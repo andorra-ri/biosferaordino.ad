@@ -37,7 +37,7 @@
       <div class="container grid grid--2 grid--center">
         <ul class="gallery gallery--one">
           <li v-for="i in 5" :key="i">
-            <img :src="`/images/gallery/${i}.png`">
+            <img :src="`/images/gallery/${i}.webp`" class="rounded">
           </li>
         </ul>
         <section id="ordino">
@@ -50,7 +50,7 @@
         </section>
         <ul class="gallery gallery--two">
           <li v-for="i in 5" :key="i">
-            <img :src="`/images/gallery/${i + 5}.png`">
+            <img :src="`/images/gallery/${i + 5}.webp`" class="rounded">
           </li>
         </ul>
       </div>
@@ -59,8 +59,8 @@
     <!-- Images Compare -->
     <image-compare
       id="ordino-compare"
-      before="/images/compare/before.jpg"
-      after="/images/compare/after.jpg">
+      before="/images/compare/before.webp"
+      after="/images/compare/after.webp">
       <template #before>
         <i18n-t tag="h2" keypath="home.compare.before">
           <template #em>
@@ -98,7 +98,7 @@
           <li v-for="task in tasks" :key="task" class="card">
             <header>
               <figure class="cover rounded">
-                <img :src="`/images/${task}.png`">
+                <img :src="`/images/${task}.webp`">
               </figure>
             </header>
             <h3>{{ t(`home.our_tasks.${task}.name`) }}</h3>
@@ -156,7 +156,7 @@
           <p>{{ t('home.commission') }}</p>
           <p>{{ t('home.citizens') }}</p>
         </section>
-        <img src="https://source.unsplash.com/Qs_Zkak27Jk" alt="Gestió" class="rounded">
+        <img src="/images/participation.webp" alt="Gestió" class="rounded">
       </div>
     </article>
 

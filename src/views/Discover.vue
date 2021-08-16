@@ -1,7 +1,7 @@
 <template>
   <div class="view-discover">
     <header class="hero">
-      <img src="/images/covers/discover.jpg" class="cover">
+      <img src="/images/covers/discover.webp" class="cover">
       <div class="container">
         <h1>{{ t('reserva_biosfera_ordino') }}</h1>
       </div>
@@ -39,7 +39,7 @@
 
     <!-- Activities -->
     <div class="hero">
-      <img src="https://source.unsplash.com/UVyOfX3v0Ls" class="cover">
+      <img src="/images/covers/activities.webp" class="cover">
       <div class="container">
         <h2>{{ t('discover.activities.tagline') }}</h2>
         <p><a href="#" class="cta">{{ t('discover.activities.link') }}</a></p>

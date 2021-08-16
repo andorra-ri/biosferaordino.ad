@@ -1,7 +1,7 @@
 <template>
   <div class="view-resources">
     <header class="hero">
-      <img src="/images/covers/resources.jpg" class="cover">
+      <img src="/images/covers/resources.webp" class="cover">
       <div class="container">
         <h1>{{ t('resources.tagline') }}</h1>
       </div>
