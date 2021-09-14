@@ -30,15 +30,15 @@ discover:
   heritage:
     - id: natural
       text: 1
-      image: /images/covers/natural_heritage.webp
+      image: /images/covers/natural_heritage
       link: https://www.refugisorteny.com/
     - id: cultural
       text: 2
-      image: /images/covers/cultural_heritage.webp
+      image: /images/covers/cultural_heritage
       link: https://www.ordino.ad/turisme/que-visitar/que-visitar
     - id: people
       text: 2
-      image: /images/covers/people.webp
+      image: /images/covers/people
       link: https://www.ordino.ad/ordino
   principles:
     - waste

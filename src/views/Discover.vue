@@ -1,7 +1,7 @@
 <template>
   <div class="view-discover">
     <header class="hero">
-      <img src="/images/covers/discover.webp" class="cover">
+      <webp-image src="/images/covers/discover" class="cover" />
       <div class="container">
         <h1>{{ t('reserva_biosfera_ordino') }}</h1>
       </div>
@@ -22,7 +22,9 @@
               </a>
             </p>
           </section>
-          <div><img :src="scope.image"></div>
+          <div>
+            <webp-image :src="scope.image" />
+          </div>
         </div>
       </section>
 
@@ -39,7 +41,7 @@
 
     <!-- Activities -->
     <div class="hero">
-      <img src="/images/covers/activities.webp" class="cover">
+      <webp-image src="/images/covers/activities" class="cover" />
       <div class="container">
         <h2>{{ t('discover.activities.tagline') }}</h2>
         <p><a href="#" class="cta">{{ t('discover.activities.link') }}</a></p>
@@ -67,10 +69,12 @@
 
 <script>
 import { useI18n } from 'vue-i18n';
+import WebpImage from '/@/components/WebpImage.vue';
 import { discover } from '/@/config.yaml';
 
 export default {
   name: 'Discover',
+  components: { WebpImage },
   setup() {
     const { t } = useI18n();
     return { t, ...discover };
@@ -78,7 +82,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 #heritage {
   position: relative;
   overflow: hidden;

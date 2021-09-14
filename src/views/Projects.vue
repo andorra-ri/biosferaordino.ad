@@ -1,7 +1,7 @@
 <template>
   <div class="view-projects">
     <header class="hero">
-      <img src="/images/covers/projects.webp" class="cover">
+      <webp-image src="/images/covers/projects" class="cover" />
       <div class="container">
         <h1>{{ t('projects.tagline') }}</h1>
       </div>
@@ -39,12 +39,14 @@
 <script>
 import { ref, computed, onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
+import WebpImage from '/@/components/WebpImage.vue';
 import api from '/@/api.service';
 
 const DEFAULT_VISIBLE_PROJECTS = 4;
 
 export default {
   name: 'Projects',
+  components: { WebpImage },
   setup() {
     const { t, locale } = useI18n();
     const projects = ref([]);

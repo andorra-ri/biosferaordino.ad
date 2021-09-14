@@ -6,11 +6,11 @@
     @mouseleave="unbindMouse"
     @touchmove="onMove">
     <div class="before">
-      <img :src="before">
+      <webp-image :src="before" class="cover" />
       <slot name="before" />
     </div>
     <div class="after">
-      <img :src="after">
+      <webp-image :src="after" class="cover" />
       <slot name="after" />
     </div>
   </div>
@@ -18,9 +18,11 @@
 
 <script>
 import { ref } from 'vue';
+import WebpImage from '/@/components/WebpImage.vue';
 
 export default {
   name: 'ImageCompare',
+  components: { WebpImage },
   props: {
     before: { type: String, required: true },
     after: { type: String, required: true },
@@ -61,7 +63,6 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
     user-select: none;
 
     img {

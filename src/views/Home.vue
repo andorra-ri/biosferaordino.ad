@@ -37,7 +37,7 @@
       <div class="container grid grid--2 grid--center">
         <ul class="gallery gallery--one">
           <li v-for="i in 5" :key="i">
-            <img :src="`/images/gallery/${i}.webp`" class="rounded">
+            <webp-image :src="`/images/gallery/${i}`" class="rounded" />
           </li>
         </ul>
         <section id="ordino">
@@ -50,7 +50,7 @@
         </section>
         <ul class="gallery gallery--two">
           <li v-for="i in 5" :key="i">
-            <img :src="`/images/gallery/${i + 5}.webp`" class="rounded">
+            <webp-image :src="`/images/gallery/${i + 5}`" class="rounded" />
           </li>
         </ul>
       </div>
@@ -59,8 +59,8 @@
     <!-- Images Compare -->
     <image-compare
       id="ordino-compare"
-      before="/images/compare/before.webp"
-      after="/images/compare/after.webp">
+      before="/images/compare/before"
+      after="/images/compare/after">
       <template #before>
         <i18n-t tag="h2" keypath="home.compare.before">
           <template #em>
@@ -97,9 +97,7 @@
         <ul class="cards grid grid--3">
           <li v-for="task in tasks" :key="task" class="card">
             <header>
-              <figure class="cover rounded">
-                <img :src="`/images/${task}.webp`">
-              </figure>
+              <webp-image :src="`/images/${task}`" class="cover rounded" :alt="task" />
             </header>
             <h3>{{ t(`home.our_tasks.${task}.name`) }}</h3>
             <p>{{ t(`home.our_tasks.${task}.task`) }}</p>
@@ -156,7 +154,7 @@
           <p>{{ t('home.commission') }}</p>
           <p>{{ t('home.citizens') }}</p>
         </section>
-        <img src="/images/participation.webp" alt="Gestió" class="rounded">
+        <webp-image src="/images/participation" alt="Gestió" class="rounded" />
       </div>
     </article>
 
@@ -184,12 +182,13 @@ import { useI18n } from 'vue-i18n';
 import ImageCompare from '/@/components/ImageCompare.vue';
 import Scrollama from '/@/components/Scrollama.vue';
 import SlideMarquee from '/@/components/SlideMarquee.vue';
+import WebpImage from '/@/components/WebpImage.vue';
 import { home } from '/@/config.yaml';
 import api from '/@/api.service';
 
 export default {
   name: 'Home',
-  components: { ImageCompare, Scrollama, SlideMarquee },
+  components: { ImageCompare, Scrollama, SlideMarquee, WebpImage },
   setup() {
     const { t } = useI18n();
     const socialPhotos = ref([]);
