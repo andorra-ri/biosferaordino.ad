@@ -9,7 +9,7 @@
 
     <!-- Downloads -->
     <article class="fill">
-      <div :class="`container grid grid--${sectionsCount}`">
+      <div v-if="sectionsCount" :class="`container grid grid--${sectionsCount}`">
         <section v-for="(documents, section) in resources" :key="section">
           <h3>{{ t(`resources.sections.${section}.name`) }}</h3>
           <p>{{ t(`resources.sections.${section}.text`) }}</p>
@@ -24,6 +24,7 @@
           </dropdown>
         </section>
       </div>
+      <p v-else class="loading">{{ t('resources.loading') }}</p>
     </article>
   </div>
 </template>

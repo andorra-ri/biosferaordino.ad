@@ -11,23 +11,26 @@
       <div class="container">
         <h2 class="center">{{ t('projects.title') }}</h2>
         <p class="center">{{ t('projects.intro') }}</p>
-        <ul class="cards grid grid--2">
-          <li v-for="project in visibleProjects" :key="project.name" class="card">
-            <header>
-              <figure class="cover rounded">
-                <img :src="project.cover[0].url">
-              </figure>
-            </header>
-            <h3>{{ project[`name_${locale}`] }}</h3>
-            <p>{{ project[`description_${locale}`] }}</p>
-          </li>
-        </ul>
-        <p v-if="expandable" class="show-more">
-          <label>
-            <input v-model="showMore" type="checkbox">
-            <span class="cta">{{ t(`projects.${showMore ? 'less' : 'more'}`) }}</span>
-          </label>
-        </p>
+        <template v-if="visibleProjects.length">
+          <ul class="cards grid grid--2">
+            <li v-for="project in visibleProjects" :key="project.name" class="card">
+              <header>
+                <figure class="cover rounded">
+                  <img :src="project.cover[0].url">
+                </figure>
+              </header>
+              <h3>{{ project[`name_${locale}`] }}</h3>
+              <p>{{ project[`description_${locale}`] }}</p>
+            </li>
+          </ul>
+          <p v-if="expandable" class="show-more">
+            <label>
+              <input v-model="showMore" type="checkbox">
+              <span class="cta">{{ t(`projects.${showMore ? 'less' : 'more'}`) }}</span>
+            </label>
+          </p>
+        </template>
+        <p v-else class="loading">{{ t('projects.loading') }}</p>
       </div>
     </article>
   </div>
