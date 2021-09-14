@@ -26,10 +26,10 @@ home:
   our_history: El Comú d'Ordino inicia l'any 2019 el procés de candidatura per al reconeixement de la Parròquia com la primera Reserva de la Biosfera a escala nacional, i la segona a escala dels Pirineus. El procés, que va incloure una fase informativa i participativa de tots els sectors i actors del territori, s'allarga fins a l'octubre del 2020 quan el Consell Internacional de Coordinació del programa MAB, en la seva en la seva 32a sessió de la UNESCO, designa oficialment la Parròquia d'Ordino com a Reserva de la Biosfera i aquesta passa a integrar-se a la xarxa Europea de Reserves de la Biosfera dins l'eix temàtic de muntanya.
 
   compare:
-    before: Les arrels del que {em}
+    before: La llavor del que {em}
     before_em: érem
-    after: La llavor del que {em}
-    after_em: serem
+    after: Les arrels del que {em}
+    after_em: sóm
 
   goals: Objectius
   our_goals:
