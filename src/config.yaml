@@ -31,7 +31,7 @@ discover:
     - id: natural
       text: 1
       image: /images/covers/natural_heritage
-      link: https://www.refugisorteny.com/
+      link: https://www.sorteny.ad/
     - id: cultural
       text: 2
       image: /images/covers/cultural_heritage

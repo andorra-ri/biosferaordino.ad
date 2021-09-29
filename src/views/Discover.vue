@@ -44,7 +44,14 @@
       <webp-image src="/images/covers/activities" class="cover" />
       <div class="container">
         <h2>{{ t('discover.activities.tagline') }}</h2>
-        <p><a href="#" class="cta">{{ t('discover.activities.link') }}</a></p>
+        <p>
+          <a
+            href="https://www.ordino.ad/turisme/activitats"
+            target="blank"
+            class="cta">
+            {{ t('discover.activities.link') }}
+          </a>
+        </p>
       </div>
     </div>
 
