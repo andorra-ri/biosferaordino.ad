@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, watch, onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
 import Dropdown from '/@/components/Dropdown.vue';
 import api from '/@/api.service';
@@ -49,14 +49,18 @@ export default {
       return file?.url || files[0].url;
     };
 
-    onMounted(async () => {
-      const docs = await api.getDocuments();
+    const loadResources = async () => {
+      const docs = await api.getDocuments(locale.value);
       resources.value = docs.reduce((acc, document) => {
         if (!acc[document.category]) acc[document.category] = [];
         acc[document.category].push(document);
         return acc;
       }, {});
-    });
+    };
+
+    watch(locale, loadResources);
+
+    onMounted(() => loadResources());
 
     return { t, locale, resources, sectionsCount, documentURL };
   },

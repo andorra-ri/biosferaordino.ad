@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, watch, onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
 import WebpImage from '/@/components/WebpImage.vue';
 import api from '/@/api.service';
@@ -58,9 +58,13 @@ export default {
       showMore.value ? projects.value : projects.value.slice(0, DEFAULT_VISIBLE_PROJECTS)
     ));
 
-    onMounted(async () => {
-      projects.value = await api.getProjects();
-    });
+    const loadProjects = async () => {
+      projects.value = await api.getProjects(locale.value);
+    };
+
+    watch(locale, loadProjects);
+
+    onMounted(() => loadProjects());
 
     return { t, locale, visibleProjects, expandable, showMore };
   },

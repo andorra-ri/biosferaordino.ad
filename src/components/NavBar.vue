@@ -20,6 +20,7 @@
             </a>
           </li>
         </ul>
+        <nav-locale />
       </nav>
     </div>
   </header>
@@ -29,11 +30,13 @@
 import { ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import Scrolled from '/@/utils/directive.scrolled';
+import NavLocale from './NavLocale.vue';
 import { nav } from '/@/config.yaml';
 
 export default {
   name: 'TopBar',
   directives: { Scrolled },
+  components: { NavLocale },
   setup() {
     const { t } = useI18n();
     const open = ref(false);
