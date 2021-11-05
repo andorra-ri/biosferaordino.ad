@@ -1,0 +1,160 @@
+reserva_biosfera_ordino: Ordino Biosphere Reserve
+
+nav:
+  home: Home
+  discover: Discover
+  projects: Projects
+  resources: Resources
+
+join: Get involved
+
+home:
+  what_is: What is a Biosphere Reserve?
+  definition: Biosphere Reserves are areas that serve as living laboratories for sustainable development.
+  objectives: Within these areas, human activities are reconciled with the conservation of natural resources and cultural heritage. The main aim is to establish a scientific basis for enhancing the relationship between people and their environments, working to fulfil the Sustainable Development Goals.
+  acknowledgement: Biosphere Reserves are recognised internationally by UNESCO’s Man and the Biosphere programme (MaB).
+
+  unesco:
+    programme: MaB programme
+    biosphere_reserve: Biosphere Reserve
+    strategy: MaB strategy
+    action_plan: MaB action plan
+    ods: Sustainable Development Goals
+
+  in_ordino: Ordino Biosphere Reserve is an example of mountain landscapes and communities that is remarkable for its sustainable way of life and the positive transformation that is already underway. We have chosen this path to show that it is possible to live in harmony with nature while enjoying social wellbeing.
+  history: History
+  our_history: The Comú (town council) of Ordino started the application in 2019 for recognition of the parish as a Biosphere Reserve, the first on a national scale and the second in the Pyrenean mountains. The process, which included an informative and participative stage involving all sectors and stakeholders inside the area, continued until October 2020, when the MAB International Co-ordinating Council officially designated the Parish of Ordino a Biosphere Reserve in its 32nd session, and it became part of the European Biosphere Reserve network under the central theme of mountains.
+
+  compare:
+    before: The seed of our {em}
+    before_em: past
+    after: the roots of our {em}
+    after_em: present
+
+  goals: Objectius
+  our_goals:
+    internationalization:
+      name: Internationalisation
+      goal: To acquire international status, to position and certify Ordino as an exceptional destination.
+    sustainability:
+      name: Sustainability
+      goal: To achieve social and economic development based on the Sustainable Development Goals.
+    experimentation:
+      name: Experimentation
+      goal: To become an area for learning, innovation and experimentation relating to sustainability.
+    cooperation:
+      name: Cooperation
+      goal: o foster an exchange of experiences and knowledge between the people of Ordino and those of similar regions around the world.
+    anticipation:
+      name: Foresight
+      goal: To safeguard our local heritage for future generations.
+
+  tasks: To achieve these, we fulfil the three main functions of all Biosphere Reserves
+  our_tasks:
+    conservation:
+      name: Conservation
+      task: Contributing to the conservation of landscapes, ecosystems and biodiversity.
+    development:
+      name: Development
+      task: Promoting economic and human development that is environmentally, socially and culturally sustainable.
+    logistics:
+      name: Logistic support
+      task: Encouraging projects and actions for environmental awareness and education, promoting research and monitoring local conservation and sustainability initiatives.
+
+  zones:
+    global:
+      name: Biosphere Reserve Zoning
+      desc: To perform its functions, the area needs to be divided into specific zones.
+    core:
+      name: Core area
+      desc: This follows the boundaries of Sorteny Natural Park, an area of 1080 hectares (10.8 km2). The Sorteny Valley is one of the finest examples of Pyrenean mountain ecosystems, both biologically and culturally. In general, the park permits sustainable tourism, traditional extensive livestock farming, environmental education and scientific research activities.
+    buffer:
+      name: Buffer zone
+      desc: This covers 6134 ha, representing 72% of the total reserve area. It mainly consists of the publicly-owned woodlands, pastures and mountains of Ordino. Activities with a low environmental impact are permitted, such as livestock farming, sustainable forest management, hunting and fishing, mountain leisure and sports activities, etc. Equally, the regulations for certain practices and activities within the buffer zone must be observed, such as access by motor vehicle or camping.
+    transition:
+      name: Transition area
+      desc: This comprises all the urban and rural areas, which are mostly located at the bottom of the valleys and represent 14.8% of the whole reserve. The focus of this area is to encourage social and economic development from a sustainable perspective. This area is destined for any kind of activity permitted by current legislation, such as building development under the parish of Ordino’s planning regulations.
+
+  logo: The Biosphere Reserve logo
+  logo_shape: 'The logo depicts the two key elements: nature, represented by the central flower, based on Sorteny, and human activities, through the leaves that symbolise people with open arms.'
+  logo_corners: The four focuses of the reserve – geography, nature, the economy and society/culture – are represented by four arrows, which create an O for Ordino in the negative space. The chosen colours are warm and dynamic, more human, as human beings are at the centre of the exchanges and learning to enhance sustainable development.
+
+  management: Management of the Biosphere Reserve
+  responsible: The Comú (town council) of Ordino is the institution in charge of the reserve and is responsible for its management through the Coordination Committee of the Ordino Biosphere Reserve Management Plan.
+  commission: The Coordination Committee is formed by the Governing Board, the Comú council and the heads of its departments which, in turn, establish sectoral working groups with local stakeholders.
+  citizens: Every resident of the reserve can participate in any of the working groups or initiatives. The involvement of all stakeholders is key to the successful operation of the reserve.
+
+  social_photos: 'Use the hashtag #biosferaordino on social media to share what the Ordino Biosphere Reserve means to you.'
+
+discover:
+  heritage:
+    natural:
+      name: Our natural heritage
+      text:
+        - The Sorteny Valley is a remarkable example of the many natural valleys in the parish of Ordino, which include Rialp and L’Angonella, and has been a protected area since 1999. The diverse habitats and well-preserved environment are behind the immense wealth of flora, with more than 800 species over an area of only 1,000 hectares (10 km2). Sorteny is especially notable for its rich, diverse marshes and peatbogs and is also a haven for rare and endangered flora, with 50 endemic Pyrenean species. For this reason, Sorteny Natural Park is a party to the Ramsar Convention and the Council of Europe’s Emerald Network for the protection of biodiversity.
+      link: Sorteny Natural Park
+    cultural:
+      name: Our cultural heritage
+      text:
+        - Ordino’s cultural heritage is rich and diverse, tangible and intangible, the result of its people’s efforts and ingenuity to deal with social and economic challenges as they arise.
+        - The particularities of the cultural landscapes within the reserve contribute to the local identity and reflect the history and interaction between communities and nature. The traditional mountain buildings - orris and pletes, cabanes and bordes, forges and mills, churches and chapels, and the festivals and traditions, are a living testimony of that interaction, the legacy of our ancestors.
+      link: Places to visit
+    people:
+      name: Our people
+      text:
+        - The 5300 residents of Ordino are its heart and soul. The locals, farmers, herders, shopkeepers, restaurant owners and others are the essence of day-to-day life in the parish. In fact, the  residents and stakeholders of the reserve are well aware of the value of Ordino’s resources, and recognise the importance of achieving sustainability and protecting the quality of life for future generations.
+        - 'Social activities in the reserve extend throughout the 8 towns and villages: Ordino, Segudet, Sornàs, Ansalonga, La Cortinada, Arans, Llorts and El Serrat.'
+      link: More about our people
+  activities:
+    tagline: Discover the range of activities at the Ordino Biosphere Reserve
+    link: Discover activities
+  responsibility:
+    title: Share the responsibility for the Biosphere Reserve
+    us_all: Safeguarding and maintaining the reserve’s assets is everyone’s responsibility.
+    follow_principles: Share this responsibility by adopting the 6 basic principles
+    principles:
+      waste:
+        name: Reduce your ecological footprint
+        text: Don’t waste resources (energy, water, food, etc.). Minimise waste and CO₂ production. Prioritise the circular economy and the consumption of local produce.
+      footprint:
+        name: Leave no trace
+        text: Enjoy the natural spaces and leave them as you found them.
+      wildlife:
+        name: Care for the wildlife
+        text: Take away experiences and moments but leave plants and animals where you find them. Keep a distance from animals and try not to disturb them.
+      private:
+        name: Respect private property
+        text: Stay on the marked trails and respect private property in the natural areas.
+      users:
+        name: Be considerate to other visitors
+        text: Respect and consider other visitors. Help to build peaceful coexistence.
+      join:
+        name: Learn and take part
+        text: You are an essential part of the Biosphere Reserve, do your research and play an active part.
+
+projects:
+  tagline: Biosphere Reserve Projects
+  title: The projects
+  intro: We are working on several projects within the framework of the Biosphere Reserve Action Plan, to promote local conservation and regeneration, sustainability, research and citizen awareness.
+  more: See more projects
+  less: See less projects
+  loading: Loading projects...
+
+resources:
+  tagline: Biosphere Reserve Resources
+  watch_documents: Access to documents
+  loading: Loading documents...
+  sections:
+    CANDIDACY:
+      name: Designation process
+      text: View and download all the documents produced during the Ordino Biosphere Reserve designation process.
+    OFFICIAL:
+      name: Official documents
+      text: View and download the official documents of the Ordino Biosphere Reserve and its management.
+    MEDIA:
+      name: Media documents
+      text: View and download the press releases of the Ordino Biosphere Reserve.
+
+footer:
+  tagline: Get involved
+  get_in_touch: Contact us if you have any queries, a project in mind or would just like to get involved.

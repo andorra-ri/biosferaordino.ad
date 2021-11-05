@@ -1,3 +1,9 @@
+locales:
+  ca: Català
+  es: Español
+  fr: Français
+  en: English
+
 nav:
   home: /
   discover: /descobreix
@@ -55,10 +61,13 @@ api:
     PROJECTS:
       endpoint: projects
       options:
+        localized:
+          - name
+          - description
         fields:
           - cover
-          - name_ca
-          - description_ca
+          - name
+          - description
         sort:
           order: asc
         where:
@@ -69,8 +78,10 @@ api:
     DOCUMENTS:
       endpoint: documents
       options:
+        localized:
+          - name
         fields:
-          - name_ca
+          - name
           - category
           - file
         sort:
