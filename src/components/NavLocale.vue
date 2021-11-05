@@ -1,5 +1,5 @@
 <template>
-  <nav class="locale-nav">
+  <nav class="locale-nav" tabindex="1">
     <span>{{ locale }}</span>
     <ul class="dropdown">
       <li v-for="(name, code) in locales" :key="code" :class="{ active: code === locale }">
@@ -28,6 +28,7 @@ export default {
   align-items: center;
   position: relative;
   padding: 0.5em;
+  outline: none;
 
   span {
     display: block;
@@ -80,6 +81,7 @@ export default {
     }
   }
 
-  &:hover .dropdown { display: block; }
+  &:hover .dropdown,
+  &:focus-within .dropdown { display: block; }
 }
 </style>
