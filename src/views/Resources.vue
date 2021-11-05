@@ -83,6 +83,7 @@ export default {
       display: block;
       height: 1.125rem;
       width: 1.125rem;
+      flex-basis: 1.125rem;
       background: url('/images/icons/download.svg') no-repeat;
       background-size: 100%;
       margin-right: 0.5rem;
