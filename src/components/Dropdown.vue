@@ -33,6 +33,8 @@ export default {
     cursor: pointer;
     border-radius: 0.5rem;
 
+    &::-webkit-details-marker { display:none; }
+
     &:hover { color: #000; }
 
     .label { margin-right: 2rem; }
