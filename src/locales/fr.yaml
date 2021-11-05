@@ -1,0 +1,160 @@
+reserva_biosfera_ordino: Réserve de Biosphère d’Ordino
+
+nav:
+  home: Accueil
+  discover: Découvrez
+  projects: Projets
+  resources: Ressources
+
+join: Participez
+
+home:
+  what_is: Qu’est-ce qu’une Réserve de Biosphère?
+  definition: Les Réserves de Biosphère sont des territoires agissant comme des laboratoires vivants du développement durable.
+  objectives: Au sein de ces Réserves, l’activité humaine se développe en compatibilité avec la conservation des ressources naturelles et du patrimoine culturel. Leur principal objectif est d’établir une base scientifique visant à l’amélioration des relations entre les personnes et leur environnement, en encourageant la pratique des Objectifs de Développement Durable.
+  acknowledgement: Les Réserves de Biosphère sont des territoires reconnus sur le plan international grâce au Programme sur l’Homme et la Biosphère -- MaB de l’UNESCO
+
+  unesco:
+    programme: Programme MaB
+    biosphere_reserve: Réserve de Biosphère
+    strategy: Stratégie MaB
+    action_plan: Plan d'action MaB
+    ods: Objectifs de Développement Durable
+
+  in_ordino: La Réserve de Biosphère d’Ordino est un exemple de paysages et communautés de montagne, où un style de vie durable fait la différence et où des transformations positives ont déjà lieu. Nous différencions notre territoire pour prouver qu’il est possible de vivre en harmonie avec la nature sans renoncer au bien-être social.
+  history: Histoire
+  our_history: En 2019, le Comú (Mairie) d’Ordino, mit en route le processus de candidature pour la reconnaissance de la Paroisse comme la première Réserve de Biosphère à l’échelle nationale et la deuxième à l’échelle des Pyrénées. Ce processus, qui incluait une phase informative et participative de tous les secteurs et acteurs du territoire, se déroula jusqu’au mois d’octobre 2020, date à laquelle le Conseil International de Coordination du Programme MAB, lors de la 32e session de l’UNESCO, désigna officiellement la Paroisse d’Ordino comme Réserve de Biosphère, celle-ci intégrant alors le réseau Européen des Réserves de Biosphère sur l’axe thématique de la montagne.
+
+  compare:
+    before: La semence de ce que nous {em}
+    before_em: fûmes
+    after: Les racines de ce que nous {em}
+    after_em: sommes
+
+  goals: Objectifs
+  our_goals:
+    internationalization:
+      name: Internationalisation
+      goal: Acquérir un distinctif à portée globale positionnant et consolidant Ordino comme destination de référence en termes de qualité certifiée.
+    sustainability:
+      name: Durabilité
+      goal: Atteindre un développement économique et social fondé sur les Objectifs de Développement Durable.
+    experimentation:
+      name: Expérimentation
+      goal: Devenir un espace d'apprentissage, d'innovation et d'expérimentation gravitant autour de la durabilité.
+    cooperation:
+      name: Coopération
+      goal: Encourager l’échange d’expériences et de connaissances entre sa population et les autres régions mondiales aux caractéristiques similaires.
+    anticipation:
+      name: Anticipation
+      goal: Veiller à garantir un héritage territorial de qualité pour les générations à venir.
+
+  tasks: Pour ce faire, nous comptons sur les principales fonctions de toute réserve
+  our_tasks:
+    conservation:
+      name: Conservation
+      task: En contribuant à la conservation des paysages, des écosystèmes et de la biodiversité.
+    development:
+      name: Développement
+      task: En promouvant un développement économique et humain écologiquement et socioculturellement durable.
+    logistics:
+      name: Support logistique
+      task: En encourageant des projets et des actions de sensibilisation et d'éducation environnementale, tout comme la recherche et le suivi local d’initiatives pour la conservation et la durabilité.
+
+  zones:
+    global:
+      name: Zonage de la Réserve de Biosphère
+      desc: Afin de pouvoir mener à bien ses fonctions, un zonage spécifique du territoire est nécessaire.
+    core:
+      name: La zone Noyau
+      desc: Elle correspond aux limites du Parc Naturel de Sorteny qui occupe une superficie de 1 080 ha. La Vallée de Sorteny est l’un des cas les plus représentatifs des écosystèmes de montagne des Pyrénées, aussi bien en termes biologiques que culturels. De manière générale, le Parc accueille des activités de tourisme durable, d'élevage extensif traditionnel, et des actions d’éducation environnementale ainsi que de recherche scientifique y sont menées à terme.
+    buffer:
+      name: La zone Tampon
+      desc: Elle occupe un total de 6 134 ha, ce qui représente 72 % de la superficie de la Réserve. Elle est majoritairement composée de forêts, de pâturages et des montagnes publiques d’Ordino. Les activités qui y sont permises sont toutes celles générant un faible impact environnemental, telles l’élevage, la gestion forestière durable, la chasse et la pêche, les activités ludiques et sportives de montagne, etc. Il faut toutefois respecter les normes qui régulent certains usages et activités au sein de la zone tampon, comme l’accès motorisé ou le camping.
+    transition:
+      name: La zona de Transition
+      desc: Elle englobe toutes les zones urbaines et rurales, majoritairement situées en fond de vallée, et représente 14,8 % de la superficie de la Réserve. Cette zone est destinée à encourager le développement social et économique sous l’angle de la durabilité. Cette zone prévoit le déroulement de tout type d’activité selon la législation en vigueur, comme l’urbanisme par exemple, que réglemente le Plan d’Aménagement Urbain de la Paroisse d’Ordino (Pla d’Ordenació Urbanística Parroquial d’Ordino).
+
+  logo: Le logo de la Réserve de Biosphère
+  logo_shape: 'Le logo de la Réserve reflète ses deux facteurs clés : la nature, représentée par la fleur centrale, basée à Sorteny, et l’activité humaine, représentée par les feuilles qui symbolisent des personnes les bras ouverts.'
+  logo_corners: Les quatre perspectives de la Réserve -géographique, naturelle, économique et sociale/culturelle- sont représentées par les quatre flèches directionnelles qui, dans leur ensemble, définissent l’espace central circulaire formant en négatif le O d’Ordino. Les couleurs choisies sont chaudes et dynamiques, qui sont plus humaines, étant donné que les êtres humains constituent le centre des échanges et des apprentissages vers un développement plus durable.
+
+  management: La gestion de la Réserve
+  responsible: Le Comú (Mairie) d’Ordino, responsable institutionnel de la Réserve, se charge de sa gestion à travers la Commission de Coordination du Plan de Gestion de la Réserve de Biosphère d’Ordino.
+  commission: La Commission de Coordination est composée par la Junta de Govern (Assemblée du Gouvernement) et le Consell del Comú (Conseil de la Mairie) ainsi que par les responsables des Départements de l’institution, qui à leur tour établissent des tables sectorielles de travail avec les acteurs territoriaux.
+  citizens: Tous les citoyens de la Réserve peuvent participer activement à l’une des tables ou aux initiatives de travail. La participation de tous les acteurs est clé pour le bon fonctionnement de la Réserve.
+
+  social_photos: 'Utilisez le hashtag #biosferaordino sur les réseaux sociaux et partagez ce qu’Ordino, Réserve de Biosphère représente pour vous.'
+
+discover:
+  heritage:
+    natural:
+      name: Notre patrimoine naturel
+      text:
+        - Parmi les diverses vallées naturelles, telles celle de Rialp ou celle de l’Angonella, la vallée de Sorteny se distingue comme l’unique espace naturel protégé de la Paroisse d’Ordino depuis 1999. La diversité d’habitats et le bon état de conservation de l’environnement expliquent la grande richesse floristique de cet espace, avec une flore riche de plus de 800 espèces pour seulement 1 000 hectares d’extension. L’un des aspects les plus remarquable de Sorteny est la richesse et la diversité de zones humides et de tourbières, ainsi que le refuge de flore rare ou menacée qu’il représente, avec 50 espèces endémiques des Pyrénées. C’est pour cela que le site du Parc Naturel de Sorteny figure sur la liste des sites de la Convention de Ramsar et fait partie du Réseau Maragda de protection de la Biodiversité du Conseil de l’Europe.
+      link: Parc Naturel de Sorteny
+    cultural:
+      name: Notre patrimoine culturel
+      text:
+        - Le patrimoine culturel matériel et immatériel d’Ordino est riche et divers, fruit du génie et de l’effort de sa population pour affronter les défis socioéconomiques à tout moment.
+        - De par ses spécificités, les paysages culturels de la Réserve contribuent à l’identité locale et reflètent l’histoire et les interactions entre les communautés et la nature. Les orris (ancienne installation d’estive en haute montagne) et les pletes (enclos où pâture le bétail), les cabanes et les bordes (maisons traditionnelles andorranes), les forges et les moulins, les églises et les chapelles, les festivités et les traditions sont le témoignage vivant de cette interaction, l’héritage de nos ancêtres.
+      link: Offre culturelle
+    people:
+      name: Les nôtres
+      text:
+        - 5 300 habitants constituent le cœur et l’âme de la Réserve d’Ordino. Citoyens, agriculteurs, éleveurs, commerçants ou restaurateurs, entre autres, sont l’essence même du quotidien de ce territoire. En fait, ce sont ces mêmes citoyens et acteurs qui, conscients des valeurs d’Ordino, considèrent qu’il est fondamental de continuer à travailler pour atteindre la durabilité du territoire et garantir une qualité de vie aux futures générations.
+        - 'L’activité sociale de la Réserve est distribuée autour de 8 villages : Ordino et Segudet, Sornàs, Ansalonga, la Cortinada et Arans, Llorts et El Serrat.'
+      link: Découvrez les nôtres
+  activities:
+    tagline: écouvrez l’offre d’activités de la Réserve de Biosphère d’Ordino
+    link: Découvrez les activités
+  responsibility:
+    title: Coresponsabilisez-vous avec la Réserve
+    us_all: Assurer et maintenir les valeurs de la Réserve est l’affaire de tous.
+    follow_principles: Coresponsabilisez-vous avec le territoire en adoptant 6 principes fondamentaux.
+    principles:
+      waste:
+        name: Réduisez votre empreinte écologique
+        text: Évitez le gaspillage de ressources (énergie, eau, aliments, etc.). Minimisez la production de déchets et de CO₂. Priorisez une économie circulaire et la consommation de produits locaux.
+      footprint:
+        name: Ne laissez pas de traces
+        text: Profitez des espaces et quittez-les comme si vous n’y aviez jamais été.
+      wildlife:
+        name: Prenez soin de la vie sauvage
+        text: Repartez chargés d’expériences et de bons moments mais laissez la flore et la faune à leur place. Gardez vos distances avec la faune et évitez les interactions.
+      private:
+        name: Respectez la propriété privée
+        text: Évitez de sortir des chemins balisés et respectez les propriétés privées présentes en milieu naturel.
+      users:
+        name: Respectez les autres
+        text: Soyez respectueux et attentionné avec les autres utilisateurs, aidez à construire un climat convivial.
+      join:
+        name: Informez-vous et participez
+        text: Vous êtes une partie fondamentale de la Réserve, informez-vous et participez activement.
+
+projects:
+  tagline: Projets de la Réserve de Biosphère
+  title: Les projets
+  intro: Dans le cadre du Plan d’Action de la Réserve, nous travaillons sur plusieurs projets visant à encourager la conservation et la dynamisation du territoire, la durabilité, la recherche et la sensibilisation de la population.
+  more: Voire plus projets
+  less: Voire moins projets
+  loading: Chargement des projets...
+
+resources:
+  tagline: Ressources de la Réserve de Biosphère
+  watch_documents: Consultez les documents
+  loading: Chargement des documents...
+  sections:
+    CANDIDACY:
+      name: Processus de candidature
+      text: Consultez et téléchargez tous les documents élaborés pendant le processus de candidature de la Réserve de Biosphère d’Ordino.
+    OFFICIAL:
+      name: Documents officiels
+      text: Consultez et téléchargez tous les documents officiels de la Réserve de Biosphère d’Ordino.
+    MEDIA:
+      name: Media
+      text: Consultez et téléchargez les communiqués de presse de la Réserve de Biosphère.
+
+footer:
+  tagline: Devenez vous aussi l’un des ACTEURS de la Réserve.
+  get_in_touch: Si vous avez des questions, une idée de projet ou si vous voulez tout simplement y participer, contactez-nous.
