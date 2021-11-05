@@ -1,0 +1,160 @@
+reserva_biosfera_ordino: Reserva de la Biosfera de Ordino
+
+nav:
+  home: Inicio
+  discover: Descubre
+  projects: Proyectos
+  resources: Recursos
+
+join: Participa
+
+home:
+  what_is: ¿Qué es una reserva de la biosfera?
+  definition: Las Reservas de la Biosfera son territorios que actúan como laboratorios vivos del desarrollo sostenible.
+  objectives: En ellos, la actividad humana se lleva a cabo de forma compatible con la conservación de los recursos naturales y del patrimonio cultural. Su principal objetivo es establecer una base científica para mejorar las relaciones entre las personas y su entorno, fomentando la aplicación de los Objetivos de Desarrollo Sostenible.
+  acknowledgement: Las reservas de la biosfera son territorios reconocidos internacionalmente por el programa El Hombre y la Biosfera – MaB de la UNESCO.
+
+  unesco:
+    programme: Programa MaB
+    biosphere_reserve: Reserva de la Biosfera
+    strategy: Estrategia MaB
+    action_plan: Plan de acción MaB
+    ods: Objectivos de Desarrollo Sostenible
+
+  in_ordino: La Reserva de la Biosfera de Ordino es un ejemplo de paisajes y comunidades de montaña, cuyo estilo de vida sostenible marca la diferencia y donde ya se están aplicando una transformación positiva. Diferenciamos nuestro territorio para demostrar que es posible vivir en harmonía con la naturaleza sin renunciar al bienestar social.
+  history: Historia
+  our_history: El Comú de Ordino inició en el año 2019 el proceso de candidatura para el reconocimiento de la Parroquia como la primera Reserva de la Biosfera en el ámbito nacional, y la segunda en los Pirineos. El proceso, que incluyo una fase informativa y participativa de todos los sectores y actores del territorio, se alarga hasta octubre 2020 cuando el Consejo Internacional de Coordinación del programa MaB de la UNESCO, en la 32ª sesión, designa oficialmente la Parroquia de Ordino como Reserva de la Biosfera y pasa a integrarse a la red Europea de Reservas de la Biosfera dentro del eje temático de montaña.
+
+  compare:
+    before: La semilla de lo que {em}
+    before_em: éramos
+    after: Las raíces de lo que {em}
+    after_em: somos
+
+  goals: Objetivos
+  our_goals:
+    internationalization:
+      name: Internacionalización
+      goal: Adquirir un distintivo de alcance global que posicione y consolide Ordino como un destino referente de calidad certificada.
+    sustainability:
+      name: Sostenibilidad
+      goal: Lograr un desarrollo económico y social, basado en los Objetivos de Desarrollo Sostenible.
+    experimentation:
+      name: Experimentación
+      goal: Convertirse en un espacio de aprendizaje, innovación y experimentación sobre la sostenibilidad.
+    cooperation:
+      name: Cooperación
+      goal: Fomentar el intercambio de experiencias y conocimiento entre sus habitantes y los de otras regiones similares alrededor del mundo.
+    anticipation:
+      name: Anticipacióm
+      goal: Velar por garantizar una herencia territorial de calidad para las próximas generaciones.
+
+  tasks: Para hacerlo nos basamos en las principales funciones de las reservas
+  our_tasks:
+    conservation:
+      name: Conservación
+      task: Contribuyendo a la conservación de los paisajes, los ecosistemas y la biodiversidad.
+    development:
+      name: Desarrollo
+      task: Promocionando un desarrollo económico y humano, sostenible ecológica y socioculturalmente.
+    logistics:
+      name: Soporte Logístico
+      task: Fomentar proyectos y acciones de sensibilización y educación ambiental, así como la búsqueda y seguimiento local de iniciativas para la conservación y la sostenibilidad.
+
+  zones:
+    global:
+      name: Zonificación de la reserva de la biosfera
+      desc: Para poder desplegar sus funciones, es necesaria una zonificación específica del territorio.
+    core:
+      name: La zona núcleo
+      desc: Corresponde a los límites del Parque Natural de Sorteny y ocupa una superficie de 1.080 ha. La Vall de Sorteny es una de las mejores representaciones de los ecosistemas de montaña del Pirineo, tanto en el ámbito biológico como cultural. En término generales, en el parque se puede practicar el turismo sostenible, la ganadería extensiva tradicional, y llevar a cabo acciones de educación ambiental y actividades de búsqueda científica.
+    buffer:
+      name: La zona tampón
+      desc: Ocupa un total de 6.134 ha y representa el 72 % de la superficie de la reserva. Está compuesta mayoritariamente por los bosques, los pastos y las montañas públicas de Ordino. Las actividades permitidas son todas aquellas que tengan bajo impacto ambiental sobre el medio, como la ganadería, la gestión forestal sostenible, la caza y la pesca, las actividades lúdicas y deportivas de montaña, etc. Del mismo modo, se debe respetar las ordenaciones que regulan ciertos usos y actividades dentro de la zona tampón, como el acceso motorizado o la acampada.
+    transition:
+      name: La zona de transición
+      desc: Engloba todas las áreas urbanas y rurales, que mayoritariamente se localizan al fondo de valle, y suponen un 14,8 % de la superficie de la reserva. Esta zona está destinada a fomentar el desarrollo social y económico desde la óptica de la sostenibilidad. En esta área se prevé el despliegue de cualquier clase de actividad según la legislación vigente, como por ejemplo el urbanismo, que queda regulado por el Plan de Ordenación Urbanística Parroquial de Ordino.
+
+  logo: El logo de la reserva de la biosfera
+  logo_shape: 'El logotipo de la reserva refleja los dos factores clave de la misma; la naturaleza, representada por la flor central, basada en Sorteny, y la actividad humana, representada mediante las hojas, que simbolizan personas con los brazos abiertos.'
+  logo_corners: Los cuatro enfoques de la reserva – geográfico, natural, económico, y social/cultural – quedan dibujados en las cuatro flechas de dirección que, en conjunto, constituyen el espacio del logo de la O de Ordino en negativo. Los colores elegidos son cálidos y dinámicos, los cuales son más humanos, ya que los seres humanos están en el centro de los intercambios y del aprendizaje hacia un desarrollo más sostenible.
+
+  management: La gestión de la reserva
+  responsible: El Comú de Ordino es el responsable institucional de la reserva i se encarga de su gestión mediante la Comisión de Coordinación del Plan de Gestión de la Reserva de la Biosfera de Ordino.
+  commission: La Comisión de Coordinación está compuesta por la Junta de Gobierno, el Consejo del Comú, así como por los jefes de los departamentos de la institución, quienes a su turno establecen mesas sectoriales de trabajo con los actores del territorio.
+  citizens: Cualquier ciudadano de la reserva puede formar parte activa de alguna de las mesas o iniciativas de trabajo. La participación de todos los actores es clave para el buen funcionamiento de la reserva.
+
+  social_photos: 'Utiliza la etiqueta #biosferaordino en las redes sociales para compartir qué es para ti Ordino, Reserva de la Biosfera.'
+
+discover:
+  heritage:
+    natural:
+      name: Nuestro patrimonio natural
+      text:
+        - Dentro de los varios valles naturales como el de Rialp o el de la Angonella, destaca el valle de Sorteny, el único espacio natural protegido de la parroquia de Ordino desde 1999. La diversidad de habitantes y el buen estado de conservación del medio ambiente explican la gran riqueza florística de este espacio, con más de 800 especies de flora en tan solo 1.000 hectáreas de extensión. Uno de los aspectos más destacables de Sorteny es la riqueza y diversidad de molleras y turberas, así como el refugio de flora rara o amenazada, con 50 especies endémicas de los Pirineos. Por estos motivos, el Parque Natural de Sorteny forma parte del Convenio Ramsar así como de la Red Maragda de protección de la biodiversidad del Consejo de Europa.
+      link: Parque Natural de Sorteny
+    cultural:
+      name: Nuestro patrimonio cultural
+      text:
+        - Ordino posee un patrimonio cultural material e inmaterial rico y diverso, fruto del ingenio y el esfuerzo de su gente para afrontar los desafíos socioeconómicos de cada momento.
+        - Por sus especificidades, los paisajes culturales de la reserva contribuyen a la identidad local y reflejan la historia y las interacciones entre las comunidades y la natura. Los orris (ordeñadores) y los rediles, las cabañas y las bordas, las fragas y los molinos, las iglesias y las capillas, las festividades y las tradiciones, son el testigo vivo de esta interacción, el legado de nuestros antepasados.
+      link: Oferta cultural
+    people:
+      name: Nuestra gente
+      text:
+        - 5300 habitantes conforman el corazón y el ánima de la reserva de Ordino. Ciudadanos, agricultores, ganaderos, comerciantes o restauradores entre otros, son la esencia viva del día a día del territorio. De hecho, son los mismos ciudadanos y actores de la reserva los que, conscientes de los valores de Ordino, consideran fundamental seguir trabajando para alcanzar la sostenibilidad del territorio y garantizar una calidad de vida para las próximas generaciones.
+        - 'La actividad social de la reserva se distribuye a lo largo de ocho poblaciones: Ordino y Segudet, Sornàs, Ansalonga, la Cortinada y Arans, Llorts y el Serrat.'
+      link: Conoce nuestra gente
+  activities:
+    tagline: Descubre la oferta de actividades de la Reserva de la Biosfera de Ordino
+    link: Descubre las actividades
+  responsibility:
+    title: Corresponsabilízate con la Reserva
+    us_all: Asegurar y mantener los valores de la reserva es cosa de todos.
+    follow_principles: Corresponsabilízate con el territorio adoptando seis principios básicos.
+    principles:
+      waste:
+        name: Reduce la huella ecológica
+        text: Evita el derroche de recursos (energía, agua, alimentos, etc.). Minimiza la generación de residuos y CO₂. Prioriza la economía circular y el consumo de productos locales.
+      footprint:
+        name:	No dejes rastro
+        text: Disfruta de los espacios y déjalos como si no hubieras estado.
+      wildlife:
+        name: Cuida la vida silvestre
+        text: Llévate experiencias y momentos, pero deja la flora y la fauna allá donde esté. Mantén la distancia con la fauna i evita interactuar con ella.
+      private:
+        name: Respeta la propietat privada
+        text: Evita salirte de los caminos señalizados y respeta las propiedades privadas en entornos naturales.
+      users:
+        name: Considera los demás usuarios
+        text: Sé respetuoso y considerado con los demás usuarios y ayuda a construir un clima de buena convivencia.
+      join:
+        name: Infórmate y participa
+        text: Tu eres parte fundamental de la reserva, mantente informado y participa activamente.
+
+projects:
+  tagline: Proyectos de la Reserva de la Biosfera
+  title: Los proyectos
+  intro: En el ámbito del Plan de Acción de la reserva, se está trabajando en varios proyectos para fomentar la conservación y dinamización del territorio, la sostenibilidad, la búsqueda y la sensibilización de la ciudadanía.
+  more: Ver más proyectos
+  less: Ver menos proyectos
+  loading: Cargando proyectos...
+
+resources:
+  tagline: Recursos de la Reserva de la Biosfera
+  watch_documents: Consultar documentos
+  loading: Cargando documentos...
+  sections:
+    CANDIDACY:
+      name: Proceso de candidatura
+      text: Consulta y descárgate todos los documentos generados durante el proceso de candidatura de la Reserva de la Biosfera de Ordino.
+    OFFICIAL:
+      name: Documentos oficiales
+      text: Consulta y descárgate los documentos oficiales de la Reserva de la Biosfera y de su gestión.
+    MEDIA:
+      name: Medios de comunicación
+      text: Consulta y descárgate las comunicaciones de prensa de la Reserva de la Biosfera y de su gestión.
+
+footer:
+  tagline: Forma parte de los ACTORES de la reserva
+  get_in_touch: Si tienes alguna duda, un proyecto en mente o simplemente quieres participar con nosotros, contáctanos.
