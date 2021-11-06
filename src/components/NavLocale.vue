@@ -29,6 +29,7 @@ export default {
   position: relative;
   padding: 0.5em;
   outline: none;
+  cursor: pointer;
 
   span {
     display: block;
@@ -54,34 +55,26 @@ export default {
     min-width: 100%;
     text-align: center;
     display: none;
-    border-radius: 5px;
-    padding-top: 5px;
+    border: 2px solid currentColor;
+    margin-top: 0.5rem;
 
-    li {
-      padding: 0.25em 1em;
+    .scrolled & {
       background: #fff;
-      color: #000;
-
-      &:first-child {
-        border-top-left-radius: 0.5em;
-        border-top-right-radius: 0.5em;
-        padding-top: 1em;
-      }
-
-      &:last-child {
-        border-bottom-left-radius: 0.5em;
-        border-bottom-right-radius: 0.5em;
-        padding-bottom: 1em;
-      }
+      border-color: #fff;
     }
 
     a {
       text-decoration: none;
       display: block;
+      padding: 0.25em 1em;
+
+      &:hover { transform: scale(1.2); }
     }
+
+    li:first-child a { padding-top: 1rem; }
+    li:last-child a { padding-bottom: 1rem; }
   }
 
-  &:hover .dropdown,
   &:focus-within .dropdown { display: block; }
 }
 </style>
