@@ -1,5 +1,10 @@
 reserva_biosfera_ordino: Reserva de la Biosfera de Ordino
 
+cookies:
+  consent: Utilizamos cookies para mejorar tu experiencia. Consulta nuestra {policy} para más detalles.
+  policy: Política de privacidad
+  accept: Aceptar
+
 nav:
   home: Inicio
   discover: Descubre

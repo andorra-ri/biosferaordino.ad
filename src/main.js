@@ -1,6 +1,7 @@
 import { createApp } from 'vue';
 import InlineSvg from 'vue-svg-inline-plugin';
 import SmoothScroll from 'vue3-smooth-scroll';
+import { VueCookieNext } from 'vue-cookie-next';
 import router from './router';
 import i18n from './i18n';
 import App from './App.vue';
@@ -16,4 +17,7 @@ app.use(SmoothScroll, {
   duration: 2500,
   updateHistory: false,
 });
+
+app.use(VueCookieNext);
+
 app.mount('#app');
