@@ -1,7 +1,7 @@
 <template>
   <div class="view-discover">
-    <header class="hero">
-      <webp-image src="/images/covers/discover" class="cover" />
+    <header class="hero hero--small">
+      <webp-image src="/images/covers/silhouette" class="cover" />
     </header>
     <article class="legal-notice">
       <div class="container">
