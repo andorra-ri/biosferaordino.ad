@@ -22,7 +22,7 @@
           <p>{{ t('home.acknowledgement') }}</p>
         </section>
         <section id="unesco">
-          <img src="/images/unesco.svg" alt="UNESCO" class="logo">
+          <img src="/images/unesco.png" alt="UNESCO" class="logo">
           <ul>
             <li v-for="(link, name) in unesco" :key="name">
               <a :href="link" target="blank">{{ t(`home.unesco.${name}`) }}</a>
@@ -219,7 +219,7 @@ export default {
 
   a {
     display: block;
-    color: #117bd2;
+    color: #30659d;
     margin-bottom: 0.75em;
   }
 }
