@@ -84,3 +84,4 @@ Les cookies utilisés sur le site www.biosferaordino.ad sont identifiés ci-dess
 | --- | --- | --- | --- | --- |
 | consent | Technique, Propre | 12 mois | Permet de contrôler l'acceptation des cookies | www.biosferaordino.ad |
 | locale | Technique, Propre | 12 mois | Permet d'afficher le site web avec la langue sélectionnée par l'utilisateur | www.biosferaordino.ad |
+| _ga | Analytique | 2 ans | Contient un identifiant anonyme utilisé pour distinguer les utilisateurs lors de l'exécution de statistiques | www.biosferaordino.ad |

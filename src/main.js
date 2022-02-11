@@ -2,6 +2,7 @@ import { createApp } from 'vue';
 import InlineSvg from 'vue-svg-inline-plugin';
 import SmoothScroll from 'vue3-smooth-scroll';
 import { VueCookieNext } from 'vue-cookie-next';
+import VueGtag, { trackRouter } from 'vue-gtag-next';
 import router from './router';
 import i18n from './i18n';
 import App from './App.vue';
@@ -19,5 +20,12 @@ app.use(SmoothScroll, {
 });
 
 app.use(VueCookieNext);
+
+// Google Analytics
+app.use(VueGtag, {
+  isEnabled: false,
+  property: { id: import.meta.env.VITE_GOOGLE_ANALYTICS_ID },
+});
+trackRouter(router);
 
 app.mount('#app');

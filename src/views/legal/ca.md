@@ -84,3 +84,4 @@ A continuació s’identifiquen les cookies que s’utilitzen en el lloc web de 
 | --- | --- | --- | --- | --- |
 | consent | Tècnica, Pròpia | 12 mesos | Permet controlar l’acceptació de les cookies | www.biosferaordino.ad |
 | locale | Tècnica, Pròpia | 12 mesos | Permet mostrar la web en l'idioma seleccionat per l'usuari | www.biosferaordino.ad |
+| _ga | Analítica | 2 anys | Conté un identificador anònim usat per a distingir usuaris al realitzar estadísitiques | www.biosferaordino.ad |

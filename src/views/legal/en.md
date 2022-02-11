@@ -84,3 +84,4 @@ The cookies used on the www.biosferaordino.ad website are identified below, as w
 | --- | --- | --- | --- | --- |
 | consent | Technical, Own | 12 months | Allows to control the acceptance of cookies | www.biosferaordino.ad |
 | locale | Technical, Own | 12 months | allows to display website with user's selected language | www.biosferaordino.ad |
+| _ga | Analytical | 2 years | Contains an anonymous identifier used to distinguish users when performing statistics | www.biosferaordino.ad |

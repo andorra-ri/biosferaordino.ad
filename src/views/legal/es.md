@@ -84,3 +84,4 @@ Cookie | Tipo | Temporalidad | Finalidad | Dominio
 | --- | --- | --- | --- | --- |
 | consent | Técnica, Propia | 12 meses | Permite controlar la aceptación de cookies | www.biosferaordino.ad |
 | locale | Técnica, Propia | 12 meses | Permite mostrar el sitio web con el idioma seleccionado por el usuario | www.biosferaordino.ad |
+| _ga | Analítica | 2 años | Contiene un identificador anónimo que se utiliza para distinguir a los usuarios cuando se realizan estadísticas | www.biosferaordino.ad |
