@@ -32,7 +32,8 @@
         <router-link to="/privacy">{{ t('cookies.policy') }}</router-link>
       </p>
       <p>
-        Web dissenyada per <a href="https://www.arcalaska.co/" target="blank">arcalaska.co</a>
+        Disseny d'<a href="https://www.arcalaska.co/" target="blank">arcalaska.co</a>
+        i codi d'<a href="https://www.ari.ad" target="blank">Andorra Recerca + Innovació</a>
         &middot; Imatges cedides per <a href="https://www.instagram.com/ordinoesviu" target="blank">@ordinoesviu</a>, <a href="https://www.instagram.com/guillemcasalf" target="blank">@guillemcasalf</a> i <a href="https://www.instagram.com/montpackers" target="blank">@montpackers</a>
       </p>
     </section>
