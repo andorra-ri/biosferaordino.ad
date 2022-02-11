@@ -9,5 +9,6 @@ export default createRouter({
     { path: '/descobreix', component: () => import('/@/views/Discover.vue') },
     { path: '/projectes', component: () => import('/@/views/Projects.vue') },
     { path: '/recursos', component: () => import('/@/views/Resources.vue') },
+    { path: '/privacy', component: () => import('/@/views/PrivacyPolicy.vue') },
   ],
 });
