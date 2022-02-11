@@ -49,11 +49,18 @@ a {
   color: inherit;
 }
 
+strong { font-weight: bold; }
+
+em,
+i { font-style: italic; }
+
 .cta {
+  color: inherit;
   cursor: pointer;
   text-decoration: none;
   padding: 0.75rem 1rem;
   border: 2px solid currentColor !important;
+  background: transparent;
 }
 
 .center {

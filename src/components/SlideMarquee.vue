@@ -1,6 +1,6 @@
 <template>
   <ul :id="id" class="slide-marquee" :style="`--speed:${speed}s`">
-    <li v-for="(item, i) in current" :key="`${item[key]}.${i}`">
+    <li v-for="(item, i) in current" :key="`${item[attribute]}.${i}`">
       <slot :item="item" />
     </li>
   </ul>
@@ -13,7 +13,7 @@ export default {
   name: 'SlideMarquee',
   props: {
     id: { type: String, default: Math.random().toString(36).substr(2, 5) },
-    key: { type: String, default: '_id' },
+    attribute: { type: String, default: '_id' },
     items: { type: [Object, String], required: true },
     speed: { type: Number, default: 5 },
   },

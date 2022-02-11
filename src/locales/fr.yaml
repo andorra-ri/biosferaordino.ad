@@ -1,5 +1,11 @@
 reserva_biosfera_ordino: Réserve de Biosphère d’Ordino
 
+cookies:
+  consent: Nous utilisons des cookies pour améliorer votre expérience. Consultez notre {policy} pour plus de détails.
+  policy: Politique de confidentialité
+  accept: Accepter
+
+
 nav:
   home: Accueil
   discover: Découvrez
@@ -77,7 +83,7 @@ home:
 
   logo: Le logo de la Réserve de Biosphère
   logo_shape: 'Le logo de la Réserve reflète ses deux facteurs clés : la nature, représentée par la fleur centrale, basée à Sorteny, et l’activité humaine, représentée par les feuilles qui symbolisent des personnes les bras ouverts.'
-  logo_corners: Les quatre perspectives de la Réserve -géographique, naturelle, économique et sociale/culturelle- sont représentées par les quatre flèches directionnelles qui, dans leur ensemble, définissent l’espace central circulaire formant en négatif le O d’Ordino. Les couleurs choisies sont chaudes et dynamiques, qui sont plus humaines, étant donné que les êtres humains constituent le centre des échanges et des apprentissages vers un développement plus durable.
+  logo_corners: Les quatre perspectives de la Réserve -géographique, naturelle, économique et sociale/culturelle- sont représentées par les quatre flèches directionnelles qui, dans leur ensemble, définissent l’espace central circulaire formant en négatif le O d’Ordino. L'accent mis sur le projet de réserve de biosphère en tant que gestion curieuse et durable du patrimoine, ainsi que l'interaction dynamique de la maison, inspirent une palette de couleurs énergiques et aux tons chauds.
 
   management: La gestion de la Réserve
   responsible: Le Comú (Mairie) d’Ordino, responsable institutionnel de la Réserve, se charge de sa gestion à travers la Commission de Coordination du Plan de Gestion de la Réserve de Biosphère d’Ordino.

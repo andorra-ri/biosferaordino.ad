@@ -1,5 +1,10 @@
 reserva_biosfera_ordino: Reserva de la Biosfera de Ordino
 
+cookies:
+  consent: Utilizamos cookies para mejorar tu experiencia. Consulta nuestra {policy} para más detalles.
+  policy: Política de privacidad
+  accept: Aceptar
+
 nav:
   home: Inicio
   discover: Descubre
@@ -46,7 +51,7 @@ home:
       name: Cooperación
       goal: Fomentar el intercambio de experiencias y conocimiento entre sus habitantes y los de otras regiones similares alrededor del mundo.
     anticipation:
-      name: Anticipacióm
+      name: Anticipación
       goal: Velar por garantizar una herencia territorial de calidad para las próximas generaciones.
 
   tasks: Para hacerlo nos basamos en las principales funciones de las reservas
@@ -77,7 +82,7 @@ home:
 
   logo: El logo de la reserva de la biosfera
   logo_shape: 'El logotipo de la reserva refleja los dos factores clave de la misma; la naturaleza, representada por la flor central, basada en Sorteny, y la actividad humana, representada mediante las hojas, que simbolizan personas con los brazos abiertos.'
-  logo_corners: Los cuatro enfoques de la reserva – geográfico, natural, económico, y social/cultural – quedan dibujados en las cuatro flechas de dirección que, en conjunto, constituyen el espacio del logo de la O de Ordino en negativo. Los colores elegidos son cálidos y dinámicos, los cuales son más humanos, ya que los seres humanos están en el centro de los intercambios y del aprendizaje hacia un desarrollo más sostenible.
+  logo_corners: Los cuatro enfoques de la reserva – geográfico, natural, económico, y social/cultural – quedan dibujados en las cuatro flechas de dirección que, en conjunto, constituyen el espacio del logo de la O de Ordino en negativo. El énfasis en el proyecto de Reserva de la Biosfera como gestión cuidadosa y sostenible del patrimonio, así como la interacción dinámica del hombre, inspiran una paleta de colores enérgica y de tonos cálidos.
 
   management: La gestión de la reserva
   responsible: El Comú de Ordino es el responsable institucional de la reserva i se encarga de su gestión mediante la Comisión de Coordinación del Plan de Gestión de la Reserva de la Biosfera de Ordino.
