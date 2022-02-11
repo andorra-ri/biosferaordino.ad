@@ -14,14 +14,14 @@
 </template>
 
 <script>
-import useCookies from '/@/cookies';
+import { useConsent } from '/@/cookies';
 import { useI18n } from 'vue-i18n';
 
 export default {
   name: 'CookiesBanner',
   setup() {
     const { t } = useI18n();
-    return { t, ...useCookies() };
+    return { t, ...useConsent() };
   },
 };
 </script>

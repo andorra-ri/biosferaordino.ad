@@ -82,4 +82,5 @@ A continuación se identifican las cookies utilizadas en el sitio web www.biosfe
 
 Cookie | Tipo | Temporalidad | Finalidad | Dominio
 | --- | --- | --- | --- | --- |
-| Consentimiento | Técnico, Propio | 12 meses | Permite controlar la aceptación de cookies | www.biosferaordino.ad |
+| consent | Técnica, Propia | 12 meses | Permite controlar la aceptación de cookies | www.biosferaordino.ad |
+| locale | Técnica, Propia | 12 meses | Permite mostrar el sitio web con el idioma seleccionado por el usuario | www.biosferaordino.ad |

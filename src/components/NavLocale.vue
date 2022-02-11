@@ -3,7 +3,7 @@
     <span>{{ locale }}</span>
     <ul class="dropdown">
       <li v-for="(name, code) in locales" :key="code" :class="{ active: code === locale }">
-        <a :href="`#${lcode}`" @click.prevent="locale = code">{{ name }}</a>
+        <a :href="`#${code}`" @click.prevent="changeLocale(code)">{{ name }}</a>
       </li>
     </ul>
   </nav>
@@ -11,13 +11,24 @@
 
 <script>
 import { useI18n } from 'vue-i18n';
+import useCookies from '/@/cookies';
 import { locales } from '/@/config.yaml';
 
 export default {
   name: 'NavLocale',
   setup() {
     const { locale } = useI18n();
-    return { locales, locale };
+    const { saveCookie, readCookie } = useCookies();
+
+    const saved = readCookie('locale');
+    if (saved) locale.value = saved;
+
+    const changeLocale = code => {
+      locale.value = code;
+      saveCookie('locale', code, '12m');
+    };
+
+    return { locales, locale, changeLocale };
   },
 };
 </script>

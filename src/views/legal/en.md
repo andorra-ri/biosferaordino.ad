@@ -80,6 +80,7 @@ Web browsers are the tools used to store cookies and from here they can be delet
 
 The cookies used on the www.biosferaordino.ad website are identified below, as well as their type and function.
 
-Cookie | Type | Type | Temporality | Purpose | Domain |
+| Cookie | Type | Temporality | Purpose | Domain |
 | --- | --- | --- | --- | --- |
-| consent | Technical, Own | 12 months | | Allows to control the acceptance of cookies | www.biosferaordino.ad |
+| consent | Technical, Own | 12 months | Allows to control the acceptance of cookies | www.biosferaordino.ad |
+| locale | Technical, Own | 12 months | allows to display website with user's selected language | www.biosferaordino.ad |
