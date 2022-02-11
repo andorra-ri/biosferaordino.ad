@@ -1,5 +1,11 @@
 reserva_biosfera_ordino: Réserve de Biosphère d’Ordino
 
+cookies:
+  consent: Nous utilisons des cookies pour améliorer votre expérience. Consultez notre {policy} pour plus de détails.
+  policy: Politique de confidentialité
+  accept: Accepter
+
+
 nav:
   home: Accueil
   discover: Découvrez

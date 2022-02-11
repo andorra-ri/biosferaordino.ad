@@ -23,6 +23,8 @@ article { margin: 10rem auto; }
   place-content: center;
   background: #0003;
   color: #fff;
+
+  &--small { max-height: 400px }
 }
 
 .grid {

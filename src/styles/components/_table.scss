@@ -1,0 +1,15 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid #dee2e6;
+
+  th,
+  td {
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  th { background: #f4f4f4; }
+}
