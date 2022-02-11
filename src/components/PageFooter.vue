@@ -19,13 +19,13 @@
     <section id="credits">
       <p class="logos">
         <img
-          src="/images/logo.svg"
-          alt="Ordino, Reserva de la Biosfera"
-          title="Ordino, Reserva de la Biosfera">
-        <img
           src="/images/ordino.png"
           alt="Comú d'Ordino"
           title="Comú d'Ordino">
+        <img
+          src="/images/logo.svg"
+          alt="Ordino, Reserva de la Biosfera"
+          title="Ordino, Reserva de la Biosfera">
       </p>
       <p>
         &copy; 2021 &middot; Comú d'Ordino &middot;
