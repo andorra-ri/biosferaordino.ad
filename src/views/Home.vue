@@ -47,6 +47,13 @@
         <section id="history">
           <h2>{{ t('home.history') }}</h2>
           <p>{{ t('home.our_history') }}</p>
+          <i18n-t keypath="home.history_updates" tag="p">
+            <a
+              href="https://www.mountainbiosphere.org/members-experiences/ordino-andorra/"
+              target="blank">
+              {{ t('home.biosphere_network') }}
+            </a>
+          </i18n-t>
         </section>
         <ul class="gallery gallery--two">
           <li v-for="i in 5" :key="i">

@@ -14,7 +14,7 @@ cd biosferaordino
 npm install
 ```
 
-Crear un fitxer `.env` i crear la variable el token d'Airtable `VITE_AIRTABLE_TOKEN`.
+Crear un fitxer `.env` i afegir el token d'Airtable `VITE_AIRTABLE_TOKEN` i l'ID de Google Analytics `VITE_GOOGLE_ANALYTICS_ID`.
 
 Iniciar el servidor de desenvolupament
 

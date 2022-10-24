@@ -29,6 +29,8 @@ home:
   in_ordino: Ordino Biosphere Reserve is an example of mountain landscapes and communities that is remarkable for its sustainable way of life and the positive transformation that is already underway. We have chosen this path to show that it is possible to live in harmony with nature while enjoying social wellbeing.
   history: History
   our_history: The Comú (town council) of Ordino started the application in 2019 for recognition of the parish as a Biosphere Reserve, the first on a national scale and the second in the Pyrenean mountains. The process, which included an informative and participative stage involving all sectors and stakeholders inside the area, continued until October 2020, when the MAB International Co-ordinating Council officially designated the Parish of Ordino a Biosphere Reserve in its 32nd session, and it became part of the European Biosphere Reserve network under the central theme of mountains.
+  history_updates: In 2022, the Ordino Biosphere Reserve becomes a member of the {0}.
+  biosphere_network: World Network of Mountain Biosphere Reserves
 
   compare:
     before: The seed of our {em}

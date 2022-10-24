@@ -1,8 +1,7 @@
-
 .exploder {
   &::after,
   &::before {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     top: 50%;
