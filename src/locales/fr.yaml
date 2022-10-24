@@ -30,6 +30,8 @@ home:
   in_ordino: La Réserve de Biosphère d’Ordino est un exemple de paysages et communautés de montagne, où un style de vie durable fait la différence et où des transformations positives ont déjà lieu. Nous différencions notre territoire pour prouver qu’il est possible de vivre en harmonie avec la nature sans renoncer au bien-être social.
   history: Histoire
   our_history: En 2019, le Comú (Mairie) d’Ordino, mit en route le processus de candidature pour la reconnaissance de la Paroisse comme la première Réserve de Biosphère à l’échelle nationale et la deuxième à l’échelle des Pyrénées. Ce processus, qui incluait une phase informative et participative de tous les secteurs et acteurs du territoire, se déroula jusqu’au mois d’octobre 2020, date à laquelle le Conseil International de Coordination du Programme MAB, lors de la 32e session de l’UNESCO, désigna officiellement la Paroisse d’Ordino comme Réserve de Biosphère, celle-ci intégrant alors le réseau Européen des Réserves de Biosphère sur l’axe thématique de la montagne.
+  history_updates : En 2022, la Réserve de Biosphère d'Ordino devient membre du {0}.
+  biosphere_network: Réseau Mondial des Réserves de Biosphère de Montagne
 
   compare:
     before: La semence de ce que nous {em}
