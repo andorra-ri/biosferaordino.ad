@@ -1,21 +1,21 @@
 @font-face {
-  font-family: 'LexendDeca';
+  font-family: LexendDeca;
   src:
-    url('/fonts/lexenddeca.woff') format('woff'),
-    url('/fonts/lexenddeca.woff2') format('woff2');
+    url("/fonts/lexenddeca.woff") format("woff"),
+    url("/fonts/lexenddeca.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Viga';
+  font-family: Viga;
   src:
-    url('/fonts/viga.woff') format('woff'),
-    url('/fonts/viga.woff2') format('woff2');
+    url("/fonts/viga.woff") format("woff"),
+    url("/fonts/viga.woff2") format("woff2");
 }
 
 #app {
   font-size: 1rem;
   line-height: 1.2;
-  font-family: 'LexendDeca', Arial, sans-serif;
+  font-family: LexendDeca, Arial, sans-serif;
 }
 
 h1 { font-size: min(4.5rem, 12vw); }
@@ -25,7 +25,7 @@ h3 { font-size: 1.25rem; }
 h1,
 h2,
 h3 {
-  font-family: 'Viga', Arial, sans-serif;
+  font-family: Viga, Arial, sans-serif;
   margin: 0 0 1rem;
   position: relative;
 
@@ -58,7 +58,7 @@ i { font-style: italic; }
   cursor: pointer;
   text-decoration: none;
   padding: 0.75rem 1rem;
-  border: 2px solid currentColor !important;
+  border: 2px solid currentcolor !important;
   background: transparent;
 }
 
