@@ -43,7 +43,7 @@ discover:
         es: https://www.sorteny.ad/
         fr: https://www.sorteny.ad/
     - id: cultural
-      text: 2
+      text: 3
       image: /images/covers/cultural_heritage
       link:
         ca: https://www.visitordino.com/ca/que-fer/@@category_view/407aa38385ac09cc6cbff73286d05dc3
