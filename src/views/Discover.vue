@@ -17,7 +17,7 @@
               {{ t(`discover.heritage.${scope.id}.text.${i - 1}`) }}
             </p>
             <p>
-              <a :href="scope.link" target="blank" class="cta">
+              <a :href="scope.link[locale]" target="blank" class="cta">
                 {{ t(`discover.heritage.${scope.id}.link`) }}
               </a>
             </p>
@@ -46,7 +46,7 @@
         <h2>{{ t('discover.activities.tagline') }}</h2>
         <p>
           <a
-            href="https://www.ordino.ad/turisme/activitats"
+            :href="activities.link[locale]"
             target="blank"
             class="cta">
             {{ t('discover.activities.link') }}
@@ -83,8 +83,8 @@ export default {
   name: 'Discover',
   components: { WebpImage },
   setup() {
-    const { t } = useI18n();
-    return { t, ...discover };
+    const { t, locale } = useI18n();
+    return { t, locale, ...discover };
   },
 };
 </script>

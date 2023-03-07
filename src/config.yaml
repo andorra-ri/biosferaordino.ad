@@ -37,15 +37,33 @@ discover:
     - id: natural
       text: 1
       image: /images/covers/natural_heritage
-      link: https://www.sorteny.ad/
+      link:
+        ca: https://www.sorteny.ad/
+        en: https://www.sorteny.ad/
+        es: https://www.sorteny.ad/
+        fr: https://www.sorteny.ad/
     - id: cultural
       text: 2
       image: /images/covers/cultural_heritage
-      link: https://www.ordino.ad/turisme/que-visitar/que-visitar
+      link:
+        ca: https://www.visitordino.com/ca/que-fer/@@category_view/407aa38385ac09cc6cbff73286d05dc3
+        en: https://www.visitordino.com/en/what-to-do/@@category_view/407aa38385ac09cc6cbff73286d05dc3
+        es: https://www.visitordino.com/es/que-hacer/@@category_view/407aa38385ac09cc6cbff73286d05dc3
+        fr: https://www.visitordino.com/fr/ce-quil-faut-faire/@@category_view/407aa38385ac09cc6cbff73286d05dc3
     - id: people
       text: 2
       image: /images/covers/people
-      link: https://www.ordino.ad/ordino
+      link:
+        ca: https://www.ordino.ad/ordino
+        en: https://www.ordino.ad/ordino
+        es: https://www.ordino.ad/ordino
+        fr: https://www.ordino.ad/ordino
+  activities:
+    link:
+      ca: https://www.visitordino.com/ca/que-fer/@@category_view/559afd14ce5ed36c3fe68efd0728c27e
+      en: https://www.visitordino.com/en/what-to-do/@@category_view/559afd14ce5ed36c3fe68efd0728c27e
+      es: https://www.visitordino.com/es/que-hacer/@@category_view/559afd14ce5ed36c3fe68efd0728c27e
+      fr: https://www.visitordino.com/fr/ce-quil-faut-faire/@@category_view/559afd14ce5ed36c3fe68efd0728c27e
   principles:
     - waste
     - footprint
