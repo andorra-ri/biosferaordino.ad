@@ -17,7 +17,7 @@
               {{ t(`discover.heritage.${scope.id}.text.${i - 1}`) }}
             </p>
             <p>
-              <a :href="scope.link[locale]" target="blank" class="cta">
+              <a :href="scope.link" target="blank" class="cta">
                 {{ t(`discover.heritage.${scope.id}.link`) }}
               </a>
             </p>
