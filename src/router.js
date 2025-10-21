@@ -30,5 +30,9 @@ export default createRouter({
       name: 'privacy',
       component: () => import('/@/views/PrivacyPolicy.vue'),
     },
+    {
+      path: '/:catchAll(.*)',
+      redirect: '/',
+    },
   ],
 });
