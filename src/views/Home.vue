@@ -3,7 +3,7 @@
     <header class="hero">
       <div class="video">
         <iframe
-          :src="`https://player.vimeo.com/video/${video}?background=1&muted=1`"
+          :src="`https://www.youtube.com/embed/${video}?autoplay=1&mute=1`"
           allow="autoplay; fullscreen"
           frameborder="0" />
       </div>
